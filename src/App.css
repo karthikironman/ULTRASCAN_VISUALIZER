@@ -1,7 +1,17 @@
 .App {
   text-align: center;
+  position:relative;
 }
-
+.app-header{
+  display:flex;
+  justify-content: space-around;
+}
+.app-body{
+  display: flex;
+}
+.json-editor{
+  text-align: left;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +45,74 @@
   to {
     transform: rotate(360deg);
   }
+}
+.tableWrapper{
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.tableBody{
+  height:calc(100vh - 10rem);
+  overflow-y:scroll;
+  margin-top:6px;
+}
+.header-cell{
+  display:inline-block;
+  padding:2px 1rem;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: grey;
+  color:white;
+}
+.header-cell:hover{
+  background-color: pink;
+}
+.data-cell{
+  display:inline-block;
+  padding:0px 1rem;
+  font-size: 20px;
+  cursor:pointer;
+}
+.t-rows{
+  display: flex;
+  height:fit-content;
+  border-bottom:1px solid white;
+}
+.getCell{
+  /* background-color: red; */
+  position:relative; 
+  width:25rem;
+  height:2.1rem;
+}
+.getCell p{
+  margin:0;
+  padding:0;
+  z-index:2000;
+  width:25rem;
+  height:2rem;
+  position:relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.postCell button{
+padding:3px;
+}
+.ip-block{
+  align-self: center;
+  font-size: 19px;
+  font-weight: 600;
+}
+.post-content{
+  display:inline-block;
+  width:20rem;
+}
+.post-content input{
+width:90%;
+}
+.post-content p{
+  padding:0;
+  margin:0;
 }
