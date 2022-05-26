@@ -16,6 +16,32 @@
   height: 40vmin;
   pointer-events: none;
 }
+.idmode{
+  background: #4CA1AF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4CA1AF, #C4E0E5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4CA1AF, #C4E0E5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.namemode{
+  background: #4CA1AF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.addCell{
+  background-color: red;
+  border:2px solid black;
+  border-radius: 10px;
+  font-size:40px;
+  position:absolute;
+  top:-1rem;
+  left:50%;
+  transform: translate(-50%,0);
+  cursor: pointer;
+  -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+.addCell:active{
+  background-color: brown;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -115,4 +141,51 @@ width:90%;
 .post-content p{
   padding:0;
   margin:0;
+}
+.select-cell{
+  height:88vh;
+  width:90%;
+  background-color: rgb(121, 10, 10);
+  position: absolute;
+  top:10vh;
+  left:5%;
+  z-index:1;
+  color:white;
+}
+.sc-table-head{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+}
+.sc-table-body{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+}
+.typeScroller{
+  position: relative;
+  z-index: 9;
+  display:flex;
+  width:20%;
+  flex-direction: column;
+  height:100%;
+  overflow-y: scroll;
+  height:calc(80vh );
+}
+.tsactive{
+  background-color:#61dafb;
+  color:brown !important;
+}
+.tsinactive{
+  background-color:brown;
+}
+.typeScroller p{
+  width:100%;
+  text-align: center;
+  color:black;
+  font-weight: 900;
+  font-size:30px;
+  margin:0;
+  border-bottom: 1px solid red;
+  cursor: pointer;
 }

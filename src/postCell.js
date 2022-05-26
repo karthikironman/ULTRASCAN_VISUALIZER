@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import axios from 'axios'
+import axios from 'axios';
 export default function PostCell(props) {
     const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState(false);

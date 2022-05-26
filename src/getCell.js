@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from 'axios';
+axios.defaults.timeout = 200000;
 const fetchData = (setValue, setLoading,setSuccess,setInitial,cell,showAlert=false) => {
     setInitial(false)
     // let url = `http://24.31.176.88:8088/fcgi/db?cell=${cell}`;

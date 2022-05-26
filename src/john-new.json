@@ -1,0 +1,7782 @@
+{
+    "string": [
+        {
+            "id": 100,
+            "name": "dUC_REV",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "maxLen": 64,
+            "defVal": "Unknown",
+            "desc": {
+                "en": "Microcontroller software version - Ex. Rev B, Mon Nov 11 13:50:18 2002",
+                "es": "Microcontroladores versión de software - Ex. Rev B, Mon Nov 11 13:50:18 2002",
+                "it": "Microcontroller versione del software - Ex. Rev B, Mon Nov 11 13:50:18 2002",
+                "fr": "Version du logiciel de microcontrôleur - Ex. Rev B, Mon Nov 11 13:50:18 2002",
+                "de": "Microcontroller Software-Version - Ex. Rev B, Mon Nov 11 13:50:18 2002",
+                "zh": "微控制器软件版本 - 前。 Rev B, Mon Nov 11 13:50:18 2002",
+                "ja": "マイクロコントローラ·ソフトウェア·バージョン - 例。Rev B, Mon Nov 11 13:50:18 2002"
+            }
+        },
+        {
+            "id": 101,
+            "name": "dDSP_REV",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "maxLen": 80,
+            "defVal": "Unknown",
+            "desc": {
+                "en": "DSP software version - Ex. Rev B, Mon Nov 11 13:50:18 2002",
+                "es": "DSP versión de software - Ex. Rev B, Mon Nov 11 13:50:18 2002",
+                "it": "DSP versione del software - Ex. Rev B, Mon Nov 11 13:50:18 2002",
+                "fr": "Version du logiciel de DSP - Ex. Rev B, Mon Nov 11 13:50:18 2002",
+                "de": "DSP Software-Version - Ex. Rev B, Mon Nov 11 13:50:18 2002",
+                "zh": "DSP软件版本 - 前。 Rev B, Mon Nov 11 13:50:18 2002",
+                "ja": "DSPソフトウェアバージョン - 例。Rev B, Mon Nov 11 13:50:18 2002"
+            }
+        },
+        {
+            "id": 102,
+            "name": "dSERIAL_NO",
+            "flags": [
+                "nv",
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "maxLen": 40,
+            "defVal": ""
+        },
+        {
+            "id": 105,
+            "name": "dLIBRARY_NAME",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "maxLen": 80,
+            "defVal": "None"
+        },
+        {
+            "id": 113,
+            "name": "dPASS_ENTRY",
+            "flags": [],
+            "maxLen": 256,
+            "defVal": ""
+        },
+        {
+            "id": 116,
+            "name": "dCUSTOM_FILTER",
+            "flags": [
+                "nv"
+            ],
+            "maxLen": 256,
+            "defVal": ""
+        },
+        {
+            "id": 148,
+            "name": "dGAUGE_MODEL",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "maxLen": 80,
+            "defVal": ""
+        },
+        
+        {
+            "id": 4004,
+            "name": "dCURVEFIT_L1",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 660,
+            "defVal": 0
+        },
+        {
+            "id": 4005,
+            "name": "dCURVEFIT_L1EXT",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 660,
+            "defVal": 0
+        },
+        {
+            "id": 4097,
+            "name": "dUC_SW_VERSION",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 80,
+            "defVal": "Unknown"
+        },
+        {
+            "id": 4099,
+            "name": "dDSP_SW_VERSION",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 80,
+            "defVal": "Unknown"
+        },
+        {
+            "id": 4504,
+            "name": "dCURVEFITRAW_L1",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 660,
+            "defVal": 0
+        },
+        {
+            "id": 4505,
+            "name": "dCURVEFITRAW_L1EXT",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 660,
+            "defVal": 0
+        },
+        {
+            "id": 5001,
+            "name": "dWP_TIMESTMP",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5017,
+            "name": "dWP_RAWWAVE",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 131072,
+            "defVal": ""
+        },
+        {
+            "id": 5020,
+            "name": "dWP_FILTWAVE",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 131072,
+            "defVal": ""
+        },
+        {
+            "id": 5021,
+            "name": "dWP_PROCWAVE",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 131072,
+            "defVal": ""
+        },
+        {
+            "id": 5031,
+            "name": "dWP_LOG",
+            "flags": [
+                ""
+            ],
+            "maxLen": 32768,
+            "defVal": "NONE"
+        },
+        {
+            "id": 5035,
+            "name": "dWP_LOG_HEAD",
+            "flags": [
+                ""
+            ],
+            "maxLen": 8196,
+            "defVal": "NONE"
+        },
+        {
+            "id": 5041,
+            "name": "dWP_PEAKLIST",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 256,
+            "defVal": "NONE"
+        },
+        {
+            "id": 5042,
+            "name": "dWP_AUTOIGNREG",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 256,
+            "defVal": "NONE"
+        },
+        {
+            "id": 5044,
+            "name": "dWP_VERSION",
+            "flags": [
+                ""
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5045,
+            "name": "dWP_VERSION_DSP",
+            "flags": [
+                ""
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5046,
+            "name": "dWP_COREDUMPS",
+            "flags": [
+                ""
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5047,
+            "name": "dWP_COREDUMPS_DSP",
+            "flags": [
+                ""
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5051,
+            "name": "dWP_I2CMONITOR",
+            "flags": [
+                ""
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5052,
+            "name": "dWP_I2CMONITOR_DSP",
+            "flags": [
+                ""
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5054,
+            "name": "dWP_I2CMONITOR_ADD",
+            "flags": [
+                ""
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5055,
+            "name": "dWP_HEADER1",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5056,
+            "name": "dWP_HEADER2",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5057,
+            "name": "dWP_HEADER3",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5058,
+            "name": "dWP_HEADER4",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5059,
+            "name": "dWP_HEADER5",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5060,
+            "name": "dWP_HEADER6",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 8196,
+            "defVal": 0
+        },
+        {
+            "id": 5061,
+            "name": "dWP_DATA",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 32768,
+            "defVal": 0
+        },
+        {
+            "id": 5062,
+            "name": "dWP_DATA0",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 32768,
+            "defVal": 0
+        },
+        {
+            "id": 5063,
+            "name": "dWP_DATA1",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 32768,
+            "defVal": 0
+        },
+        {
+            "id": 5064,
+            "name": "dWP_DATA2",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 32768,
+            "defVal": 0
+        },
+        {
+            "id": 5070,
+            "name": "dWP_DATA_RLE",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 32768,
+            "defVal": 0
+        },
+        {
+            "id": 5071,
+            "name": "dWP_DATA_RLE0",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 32768,
+            "defVal": 0
+        },
+        {
+            "id": 5072,
+            "name": "dWP_DATA_RLE1",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 32768,
+            "defVal": 0
+        },
+        {
+            "id": 5073,
+            "name": "dWP_DATA_RLE2",
+            "flags": [
+                "ro"
+            ],
+            "maxLen": 32768,
+            "defVal": 0
+        },
+        {
+            "id": 5123,
+            "name": "dWP_HST",
+            "flags": [],
+            "maxLen": 8192,
+            "defVal": 0
+        },
+        {
+            "id": 5124,
+            "name": "dWP_HST_HEAD",
+            "flags": [],
+            "maxLen": 8192,
+            "defVal": 0
+        },
+        {
+            "id": 5128,
+            "name": "dWP_STATECAPTURETIMESTAMP",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5131,
+            "name": "dWP_PERFORMRESTORETIMESTAMP",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5132,
+            "name": "dWP_PERFORMBACKUPTIMESTAMP",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5134,
+            "name": "dRECIPE_ACTION",
+            "flags": [],
+            "maxLen": 32768,
+            "defVal": 0
+        },
+        {
+            "id": 5135,
+            "name": "dRECIPE_STATUS",
+            "flags": [],
+            "maxLen": 32768,
+            "defVal": 0
+        },
+        {
+            "id": 6006,
+            "name": "dOLED_VIEW",
+            "flags": [
+                "nv"
+            ],
+            "defVal": "rs232"
+        },
+        {
+            "id": 6007,
+            "name": "dOLED_LANG",
+            "flags": [
+                "nv"
+            ],
+            "defVal": "en"
+        },
+        {
+            "id": 6008,
+            "name": "dDHCP_ENABLED",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 1,
+            "values": [
+                0,
+                1
+            ]
+        },
+        {
+            "id": 6009,
+            "name": "dHSTP1",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 6010,
+            "name": "dHSTP2",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 6011,
+            "name": "dHSTP3",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 6012,
+            "name": "dHSTP4",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 6013,
+            "name": "dOLED_DISPLAYON",
+            "flags": [],
+            "defVal": ""
+        },
+        {
+            "id": 6014,
+            "name": "dIP_ADDRESS",
+            "flags": [
+                "nv"
+            ],
+            "defVal": ""
+        },
+        {
+            "id": 6015,
+            "name": "dIP_NETMASK",
+            "flags": [
+                "nv"
+            ],
+            "defVal": ""
+        },
+        {
+            "id": 6016,
+            "name": "dIP_GATEWAY",
+            "flags": [
+                "nv"
+            ],
+            "defVal": ""
+        },
+        {
+            "id": 6017,
+            "name": "dIP_BROADCAST",
+            "flags": [
+                "nv"
+            ],
+            "defVal": ""
+        },
+        {
+            "id": 6018,
+            "name": "dIP_MODE",
+            "flags": [
+                "nv"
+            ],
+            "defVal": "dhcp"
+        },
+        {
+            "id": 6019,
+            "name": "dIP_SAVE",
+            "flags": [],
+            "defVal": ""
+        },
+        {
+            "id": 6021,
+            "name": "dIP_NAMESERVER1",
+            "flags": [
+                "nv"
+            ],
+            "defVal": ""
+        },
+        {
+            "id": 6022,
+            "name": "dIP_NAMESERVER2",
+            "flags": [
+                "nv"
+            ],
+            "defVal": ""
+        },
+        {
+            "id": 6023,
+            "name": "dIP_DOMAINNAME",
+            "flags": [
+                "nv"
+            ],
+            "defVal": ""
+        },
+        {
+            "id": 6024,
+            "name": "dIP_HOSTNAME",
+            "flags": [
+                "nv"
+            ],
+            "defVal": "UltraScan-DSP-Pro"
+        },
+        {
+            "id": 6025,
+            "name": "dIP_RESET",
+            "flags": [
+                ""
+            ],
+            "defVal": ""
+        },
+        {
+            "id": 6026,
+            "name": "dIP_UPDATEPROFI",
+            "flags": [
+                "nv"
+            ],
+            "defVal": ""
+        }
+    ],
+    "int": [
+        {
+            "id": 103,
+            "name": "dINTEGER",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 104,
+            "name": "dOPTIONS",
+            "flags": [
+                "nv",
+                "ro",
+                "hex",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 106,
+            "name": "dERASE_EE",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 107,
+            "name": "dRESET",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 108,
+            "name": "dCLEAR",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 109,
+            "name": "dGAUGE_STATUS",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 111,
+            "name": "dQUENCH_TEMP",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 115,
+            "name": "dREV_COUNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 120,
+            "name": "dCAN_MACID",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 11,
+            "minVal": 0,
+            "maxVal": 255
+        },
+        {
+            "id": 125,
+            "name": "dPBDP_SLAVE_ADDR",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 70,
+            "minVal": 1,
+            "maxVal": 126
+        },
+        {
+            "id": 130,
+            "name": "dRS232_0_MODE",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 140,
+            "name": "dRS232_1_MODE",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 0,
+            "minVal": 0,
+            "maxVal": 1000000
+        },
+        {
+            "id": 150,
+            "name": "dNUM_TRANS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 4,
+            "minVal": 1,
+            "maxVal": 8,
+            "desc": {
+                "en": "Number of transducers in the gauge head",
+                "es": "Número de transductores en el cabezal de calibre",
+                "it": "Numero di trasduttori nella testa di misura",
+                "fr": "Nombre de capteurs dans la tête de jauge",
+                "de": "Anzahl der Wandler in der Messkopf",
+                "zh": "传感器在测量头号码",
+                "ja": "ゲージヘッド内のトランスデューサの数"
+            }
+        },
+        {
+            "id": 153,
+            "name": "dPING_CNT",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 154,
+            "name": "dPING_RATE",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 161,
+            "name": "dNUM_LAYERS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1,
+            "minVal": 1,
+            "maxVal": 4,
+            "desc": {
+                "en": "Number of layers to be measured",
+                "es": "Número de capas a medir",
+                "it": "Numero di strati da misurare",
+                "fr": "Nombre de couches à mesurer",
+                "de": "Anzahl der zu messenden Schichten",
+                "zh": "待测量的层的数目",
+                "ja": "層の数が測定される"
+            }
+        },
+        {
+            "id": 162,
+            "name": "dRESOLUTION",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 4,
+            "minVal": 0,
+            "maxVal": 7
+        },
+        {
+            "id": 168,
+            "name": "dSAMPWIN_START_P1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 169,
+            "name": "dSAMPWIN_DUR_P1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 56000
+        },
+        {
+            "id": 170,
+            "name": "dSAMPWIN_START_P2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 171,
+            "name": "dSAMPWIN_DUR_P2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 56000
+        },
+        {
+            "id": 172,
+            "name": "dSAMPWIN_START_P3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 173,
+            "name": "dSAMPWIN_DUR_P3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 56000
+        },
+        {
+            "id": 174,
+            "name": "dSAMPWIN_START_P4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 175,
+            "name": "dSAMPWIN_DUR_P4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 56000
+        },
+        {
+            "id": 176,
+            "name": "dSAMPWIN_START_P5",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 177,
+            "name": "dSAMPWIN_DUR_P5",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 56000
+        },
+        {
+            "id": 178,
+            "name": "dSAMPWIN_START_P6",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 179,
+            "name": "dSAMPWIN_DUR_P6",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 56000
+        },
+        {
+            "id": 180,
+            "name": "dSAMPWIN_START_P7",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 181,
+            "name": "dSAMPWIN_DUR_P7",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 56000
+        },
+        {
+            "id": 182,
+            "name": "dSAMPWIN_START_P8",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 183,
+            "name": "dSAMPWIN_DUR_P8",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 56000
+        },
+        {
+            "id": 184,
+            "name": "dSAMPWIN_START_A1",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 185,
+            "name": "dSAMPWIN_DUR_A1",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 186,
+            "name": "dSAMPWIN_START_A2",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 187,
+            "name": "dSAMPWIN_DUR_A2",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 188,
+            "name": "dSAMPWIN_START_A3",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 189,
+            "name": "dSAMPWIN_DUR_A3",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 190,
+            "name": "dSAMPWIN_START_A4",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 191,
+            "name": "dSAMPWIN_DUR_A4",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 192,
+            "name": "dSAMPWIN_START_A5",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 193,
+            "name": "dSAMPWIN_DUR_A5",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 194,
+            "name": "dSAMPWIN_START_A6",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 195,
+            "name": "dSAMPWIN_DUR_A6",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 196,
+            "name": "dSAMPWIN_START_A7",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 197,
+            "name": "dSAMPWIN_DUR_A7",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 198,
+            "name": "dSAMPWIN_START_A8",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 199,
+            "name": "dSAMPWIN_DUR_A8",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 201,
+            "name": "dIGNORE_START1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 202,
+            "name": "dIGNORE_END1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 203,
+            "name": "dIGNORE_START2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 204,
+            "name": "dIGNORE_END2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 205,
+            "name": "dIGNORE_START3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 206,
+            "name": "dIGNORE_END3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "minVal": 0
+        },
+        {
+            "id": 218,
+            "name": "dSYNC_DB",
+            "flags": [],
+            "defVal": 0,
+            "minVal": -1,
+            "maxVal": 10
+        },
+        {
+            "id": 219,
+            "name": "dSYNC_DB_STAT",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 221,
+            "name": "dINITGAIN_T1",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 222,
+            "name": "dINITGAIN_T2",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 223,
+            "name": "dINITGAIN_T3",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 224,
+            "name": "dINITGAIN_T4",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 225,
+            "name": "dINITGAIN_T5",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 226,
+            "name": "dINITGAIN_T6",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 227,
+            "name": "dINITGAIN_T7",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 228,
+            "name": "dINITGAIN_T8",
+            "flags": [
+                "ro"
+            ]
+        },
+        {
+            "id": 240,
+            "name": "dDYNAMAVG_DUR",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 241,
+            "name": "dEXTAVG_DUR",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 10,
+            "minVal": 0
+        },
+        {
+            "id": 251,
+            "name": "dTVG_DEL1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 252,
+            "name": "dTVG_GAIN1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "minVal": -100,
+            "maxVal": 100
+        },
+        {
+            "id": 253,
+            "name": "dTVG_DEL2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 254,
+            "name": "dTVG_GAIN2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "minVal": -100,
+            "maxVal": 100
+        },
+        {
+            "id": 255,
+            "name": "dTVG_DEL3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 256,
+            "name": "dTVG_GAIN3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "minVal": -100,
+            "maxVal": 100
+        },
+        {
+            "id": 272,
+            "name": "dWPC_TOTALWALLECHOS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 2,
+            "minVal": 2,
+            "maxVal": 8
+        },
+        {
+            "id": 290,
+            "name": "dSNR1",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 291,
+            "name": "dSNR2",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 292,
+            "name": "dSNR3",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 293,
+            "name": "dSNR4",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 294,
+            "name": "dSNR5",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 295,
+            "name": "dSNR6",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 296,
+            "name": "dSNR7",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 297,
+            "name": "dSNR8",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 298,
+            "name": "dSNR_LLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 50,
+            "minVal": 0,
+            "maxVal": 100
+        },
+        {
+            "id": 300,
+            "name": "dPGS1",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 301,
+            "name": "dPGS2",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 302,
+            "name": "dPGS3",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 303,
+            "name": "dPGS4",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 304,
+            "name": "dPGS5",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 305,
+            "name": "dPGS6",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 306,
+            "name": "dPGS7",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 307,
+            "name": "dPGS8",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 308,
+            "name": "dPGS_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 50,
+            "minVal": 0,
+            "maxVal": 100
+        },
+        {
+            "id": 309,
+            "name": "dSNR_PGS_TOL",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "desc": {
+                "en": "Signal to noise ratio and % good scans tolerance status for all transducers. Bit field, 1 bit per sensor for SNR and 1 bit per sensor for % good scans. 0=OK, 1=out of tolerance. The value of this data base cell is included in packet(s) {P0}, {P1}, {P2}, {P3}, {P4}, {P5}, {P10}, {P12}, {P13}, {P14}, {P15}, {P66}, {P67}, {P68}, {P69}, {P70}, {P71), {P72}, {P73}.",
+                "es": "Relación señal a ruido y% buenas exploraciones estado de tolerancia para todos los transductores. Campo de bits, 1 bit por sensor para SNR y 1 bit por sensor para% buenas exploraciones. 0 = OK, 1 = fuera de tolerancia. El valor de esta celda base de datos está incluido en el paquete (s) {P0}, {P1}, {P2}, {P3}, {P4}, {P5}, {P10}, {P12}, {P13}, {P14}, {P15}, {P66}, {P67}, {P68}, {P69}, {P70}, {P71), {P72}, {P73}.",
+                "it": "Rapporto segnale rumore e% buone scansioni stato di tolleranza per tutti i trasduttori. Campo di bit, 1 bit per il sensore per SNR e 1 bit per sensore% buoni scansioni. 0 = OK, 1 = fuori tolleranza. Il valore di questa cella base di dati è incluso nel pacchetto (s) {P0}, {P1}, {P2}, {P3}, {P4}, {P5}, {P10}, {P12}, {P13}, {P14}, {P15}, {P66}, {P67}, {P68}, {P69}, {P70}, {P71), {P72}, {P73}.",
+                "fr": "Rapport signal sur bruit et% de bonnes analyses état de tolérance pour tous les capteurs. Champ de bits, 1 bit par capteur de SNR et 1 bit par capteur pour% de bons scans. 0 = OK, 1 = hors tolérance. La valeur de cette cellule de base de données est inclus dans le paquet (s) {P0}, {P1}, {P2}, {P3}, {P4}, {P5}, {P10}, {P12}, {P13}, {P14}, {P15}, {P66}, {P67}, {P68}, {P69}, {P70}, {P71), {P72}, {P73}.",
+                "de": "Signal-Rausch-Verhältnis und gute Scans% Toleranz Status für alle Sensoren. Bit-Feld, 1 Bit pro Sensor für SNR und 1 Bit pro Sensor für% gute Scans. 0 = OK, 1 = außerhalb der Toleranz. Der Wert dieser Datenbasiszelle in Päckchen (s) {P0}, {P1}, {P2}, {P3}, {P4}, {P5}, {P10}, {P12}, {P13}, {P14}, {P15}, {P66}, {P67}, {P68}, {P69}, {P70}, {S71), {P72}, {P73}.",
+                "zh": "信号为所有传感器的信噪比和良好％容差扫描状态。位字段，每个传感器1位SNR和每传感器1位％良好的扫描。 0= OK，1=超出公差范围。此数据的基础单元的值被包含在分组（多个）{P0}， {P1}， {P2}， {P3}， {P4}， {P5}， {P10}， {P12}， {P13}, {P14}， {P15}， {P66}， {P67}， {P68}， {P69}， {P70}， {P71}， {P72}， {P73}",
+                "ja": "全ての変換器のためのノイズ比及び％優れたスキャン·トレランス状態に信号。ビットフィールド、SNRのためのセンサーあたり1ビットおよび％良いスキャンするためのセンサごとに1ビット。 0= OK、許容範囲外1=。このデータ·ベース·セルの値は、パケット（複数可）{P0}、 {P1}、 {P2}、 {P3}、 {P4}、 {P5}、 {P10}、 {P12}、 {P13}、 {P14}、 {P15}、 {P66}、 {P67}、 {P68}、 {P69}、 {P70}、 {P71}、 {P72}、 {P73}"
+            }
+        },
+        {
+            "id": 312,
+            "name": "dCAL_NSECTORS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 313,
+            "name": "dCAL_OPMODECAPT",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 315,
+            "name": "dCAL_NSECTORSCAPT",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 316,
+            "name": "dCAL_WALLAVGLEN",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 10,
+            "minVal": 10,
+            "maxVal": 500
+        },
+        {
+            "id": 317,
+            "name": "dCAL_WALLCAPTCNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 318,
+            "name": "dCAL_AVGWALLCNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 319,
+            "name": "dCAL_CAPTTIME",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 322,
+            "name": "dCAP_TRIGGER",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 329,
+            "name": "dCAL_STATUS",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": -135
+        },
+        {
+            "id": 350,
+            "name": "dCAL_SECTORCAL_MODE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -291
+        },
+        {
+            "id": 363,
+            "name": "dPPOSV_A4",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 371,
+            "name": "dHST_GRP_SIZE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1,
+            "minVal": 1,
+            "maxVal": 10
+        },
+        {
+            "id": 372,
+            "name": "dHST_MIN_GRPS_DET",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1,
+            "minVal": 1,
+            "maxVal": 500
+        },
+        {
+            "id": 373,
+            "name": "dHST_MIN_GRPS_TRM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1,
+            "minVal": 1,
+            "maxVal": 500
+        },
+        {
+            "id": 374,
+            "name": "dHST_CNT_RESET",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 375,
+            "name": "dHST_STATUS",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 382,
+            "name": "dRVS_MOTORCMD",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 383,
+            "name": "dRVS_MOTORSTAT",
+            "flags": [
+                "ro",
+                "hex",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 384,
+            "name": "dRVS_MOTORESTAT",
+            "flags": [
+                "ro",
+                "hex",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 390,
+            "name": "dTOL_MODE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -53
+        },
+        {
+            "id": 426,
+            "name": "dOD_TOL",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 427,
+            "name": "dOD_TOL_MINMAX",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 453,
+            "name": "dOD_OVAL_TOL",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 537,
+            "name": "dL1_TOLA",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 539,
+            "name": "dLX_AVG_TOL",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 544,
+            "name": "dCON_TOL",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 546,
+            "name": "dL1_MATERIAL_TYPE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 550,
+            "name": "dL1_HST_STATUS",
+            "flags": [
+                "ro",
+                "hex",
+                "hp"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 551,
+            "name": "dL1_HST_UNDR_COUNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 552,
+            "name": "dL1_HST_OVER_COUNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 637,
+            "name": "dL2_TOLA",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 646,
+            "name": "dL2_MATERIAL_TYPE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 650,
+            "name": "dL2_HST_STATUS",
+            "flags": [
+                "ro",
+                "hex",
+                "hp"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 651,
+            "name": "dL2_HST_UNDR_COUNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 652,
+            "name": "dL2_HST_OVER_COUNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 737,
+            "name": "dL3_TOLA",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 746,
+            "name": "dL3_MATERIAL_TYPE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 750,
+            "name": "dL3_HST_STATUS",
+            "flags": [
+                "ro",
+                "hex",
+                "hp"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 751,
+            "name": "dL3_HST_UNDR_COUNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 752,
+            "name": "dL3_HST_OVER_COUNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 837,
+            "name": "dL4_TOLA",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 846,
+            "name": "dL4_MATERIAL_TYPE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 850,
+            "name": "dL4_HST_STATUS",
+            "flags": [
+                "ro",
+                "hex",
+                "hp"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 851,
+            "name": "dL4_HST_UNDR_COUNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 852,
+            "name": "dL4_HST_OVER_COUNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 926,
+            "name": "dID_TOL",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 927,
+            "name": "dID_TOL_MINMAX",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 953,
+            "name": "dID_OVAL_TOL",
+            "flags": [
+                "hex",
+                "ro"
+            ],
+            "convert": "",
+            "defVal": 0
+        },
+        {
+            "id": 980,
+            "name": "dWP_TRGT_COUNT",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1,
+            "minVal": 1,
+            "maxVal": 1000
+        },
+        {
+            "id": 981,
+            "name": "dWP_SEL",
+            "flags": [
+                "hex",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 7
+        },
+        {
+            "id": 982,
+            "name": "dWP_TRGT_POINTS",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 400,
+            "minVal": 0
+        },
+        {
+            "id": 983,
+            "name": "dWP_CLEAR",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 984,
+            "name": "dWP_NEXT",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 985,
+            "name": "dWP_PKT_NUM",
+            "flags": [],
+            "defVal": 0,
+            "minVal": -3,
+            "maxVal": 1000000
+        },
+        {
+            "id": 986,
+            "name": "dWP_COUNT",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 994,
+            "name": "dWP_NEXT_WAVEFORM",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 995,
+            "name": "dWP_PACKETSEL",
+            "flags": [],
+            "defVal": 0,
+            "minVal": -3,
+            "maxVal": 1000000
+        },
+        {
+            "id": 1000,
+            "name": "dWP_THINTUBE_E1AMP",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -20
+        },
+        {
+            "id": 1020,
+            "name": "dWP_MANTHRESH1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 4192,
+            "minVal": -8000,
+            "maxVal": 8000
+        },
+        {
+            "id": 1021,
+            "name": "dWP_MANTHRESH2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 4192,
+            "minVal": -8000,
+            "maxVal": 8000
+        },
+        {
+            "id": 1022,
+            "name": "dWP_MANTHRESH3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 4192,
+            "minVal": -8000,
+            "maxVal": 8000
+        },
+        {
+            "id": 1023,
+            "name": "dWP_MANTHRESH4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 4192,
+            "minVal": -8000,
+            "maxVal": 8000
+        },
+        {
+            "id": 1024,
+            "name": "dWP_MANTHRESH5",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 4192,
+            "minVal": -8000,
+            "maxVal": 8000
+        },
+        {
+            "id": 1030,
+            "name": "dWP_MANIGNORE1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 10,
+            "minVal": 1,
+            "maxVal": 9999999
+        },
+        {
+            "id": 1031,
+            "name": "dWP_MANIGNORE2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 10,
+            "minVal": 1,
+            "maxVal": 9999999
+        },
+        {
+            "id": 1032,
+            "name": "dWP_MANIGNORE3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 10,
+            "minVal": 1,
+            "maxVal": 9999999
+        },
+        {
+            "id": 1033,
+            "name": "dWP_MANIGNORE4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 10,
+            "minVal": 1,
+            "maxVal": 9999999
+        },
+        {
+            "id": 1040,
+            "name": "dWP_MANACCEPT1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 50,
+            "minVal": 1,
+            "maxVal": 9999999
+        },
+        {
+            "id": 1041,
+            "name": "dWP_MANACCEPT2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 50,
+            "minVal": 1,
+            "maxVal": 9999999
+        },
+        {
+            "id": 1042,
+            "name": "dWP_MANACCEPT3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 50,
+            "minVal": 1,
+            "maxVal": 9999999
+        },
+        {
+            "id": 1043,
+            "name": "dWP_MANACCEPT4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 50,
+            "minVal": 1,
+            "maxVal": 9999999
+        },
+        {
+            "id": 2000,
+            "name": "dPULSE_DUR",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 2001,
+            "name": "dPING_VOLT",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 2004,
+            "name": "dAVG_UPDUNITS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -326
+        },
+        {
+            "id": 2110,
+            "name": "dHSTP1_PACK_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2111,
+            "name": "dHSTP1_TRNS_STAT",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2112,
+            "name": "dHSTP1_ERROR_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2118,
+            "name": "dHSTP1_ERR_OVER_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2119,
+            "name": "dHSTP1_ERR_UNDR_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2120,
+            "name": "dHSTP2_PACK_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2121,
+            "name": "dHSTP2_TRNS_STAT",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2122,
+            "name": "dHSTP2_ERROR_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2128,
+            "name": "dHSTP2_ERR_OVER_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2129,
+            "name": "dHSTP2_ERR_UNDR_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2130,
+            "name": "dHSTP3_PACK_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2131,
+            "name": "dHSTP3_TRNS_STAT",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2132,
+            "name": "dHSTP3_ERROR_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2138,
+            "name": "dHSTP3_ERR_OVER_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2139,
+            "name": "dHSTP3_ERR_UNDR_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2140,
+            "name": "dHSTP4_PACK_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2141,
+            "name": "dHSTP4_TRNS_STAT",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2148,
+            "name": "dHSTP4_ERR_OVER_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 2149,
+            "name": "dHSTP4_ERR_UNDR_CNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 3000,
+            "name": "dDSP_NOPINGS",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 3001,
+            "name": "dDSP_NOCOMM",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 4096,
+            "name": "dUC_SW_REV",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 19
+        },
+        {
+            "id": 4098,
+            "name": "dDSP_SW_REVISION",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 19
+        },
+        {
+            "id": 4100,
+            "name": "dFPGA_REVISION",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 19
+        },
+        {
+            "id": 4101,
+            "name": "dFEMB_REVISION",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 19
+        },
+        {
+            "id": 4102,
+            "name": "dPROC_REVISION",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -1,
+            "minVal": -1,
+            "maxVal": 8
+        },
+        {
+            "id": 5000,
+            "name": "dWP_TIMESTAMP",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5002,
+            "name": "dWP_TRANSNUM",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5003,
+            "name": "dWP_WINSTART",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5004,
+            "name": "dWP_INCREMENT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5005,
+            "name": "dWP_WEBSEL_NOW_UNUSED",
+            "flags": [
+                ""
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5006,
+            "name": "dWP_ECHO1POS",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5007,
+            "name": "dWP_ECHO2POS",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5008,
+            "name": "dWP_ECHO3POS",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5009,
+            "name": "dWP_ECHO4POS",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5010,
+            "name": "dWP_ECHO5POS",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5011,
+            "name": "dWP_SNR",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5024,
+            "name": "dWP_UNUSED1",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5025,
+            "name": "dWP_PINGCNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5026,
+            "name": "dWP_DEADTIME",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5019,
+            "name": "dWP_PKTCNT",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 5023,
+            "name": "dWP_INITGAIN",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0,
+            "minVal": -100,
+            "maxVal": 100
+        },
+        {
+            "id": 5032,
+            "name": "dWP_LOG_RESET",
+            "flags": [
+                ""
+            ],
+            "defVal": 0,
+            "minVal": 0,
+            "maxVal": 1
+        },
+        {
+            "id": 5033,
+            "name": "dWP_LOG_ON",
+            "flags": [
+                ""
+            ],
+            "defVal": 0,
+            "minVal": 0,
+            "maxVal": 1
+        },
+        {
+            "id": 5034,
+            "name": "dWP_LOG_UPDATE",
+            "flags": [
+                ""
+            ],
+            "defVal": 0.100,
+            "minVal": 0.100
+        },
+        {
+            "id": 5036,
+            "name": "dWP_LOG_COUNT",
+            "flags": [
+                ""
+            ],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 5037,
+            "name": "dWP_LOG_AVG",
+            "flags": [
+                ""
+            ],
+            "defVal": 0,
+            "minVal": 0,
+            "maxVal": 1
+        },
+        {
+            "id": 5038,
+            "name": "dWP_LOG_ERR",
+            "flags": [
+                ""
+            ],
+            "defVal": 0,
+            "minVal": 0,
+            "maxVal": 1
+        },
+        {
+            "id": 5040,
+            "name": "dDATABASE_SAVE",
+            "flags": [
+                ""
+            ],
+            "defVal": 0,
+            "minVal": 0,
+            "maxVal": 1
+        },
+        {
+            "id": 5043,
+            "name": "dWP_COREDUMP_TRIGGER",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0,
+            "minVal": 0,
+            "maxVal": 1
+        },
+        {
+            "id": 5046,
+            "name": "dWP_COREDUMP_SIZE",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0,
+            "minVal": 0,
+            "maxVal": 65535
+        },
+        {
+            "id": 5048,
+            "name": "dWP_COREDUMPS_FILTER",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 0,
+            "minVal": 0,
+            "maxVal": 511
+        },
+        {
+            "id": 5049,
+            "name": "dWP_PAUSE",
+            "flags": [
+                ""
+            ],
+            "defVal": 0,
+            "minVal": 0,
+            "maxVal": 1
+        },
+        {
+            "id": 5050,
+            "name": "dWP_PAUSE_TRANSFER",
+            "flags": [
+                ""
+            ],
+            "defVal": 1,
+            "minVal": 0,
+            "maxVal": 1
+        },
+        {
+            "id": 5074,
+            "name": "dDB_DSP_TIMEOUT",
+            "flags": [
+                ""
+            ],
+            "defVal": 5000,
+            "minVal": 0
+        },
+        {
+            "id": 5075,
+            "name": "dDB_DSP_INITIAL_TIMEOUT",
+            "flags": [
+                ""
+            ],
+            "defVal": 25000,
+            "minVal": 0
+        },
+        {
+            "id": 5090,
+            "name": "dWP_TRANS_MAPPING",
+            "flags": [
+                "nv",
+                "hex"
+            ],
+            "defVal": 1985229328,
+            "minVal": 0
+        },
+        {
+            "id": 5099,
+            "name": "dCALIB_PORT",
+            "flags": [],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 5100,
+            "name": "dWP_DISABLE_MAPPING",
+            "flags": [
+                "nv",
+                "hex"
+            ],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 5103,
+            "name": "dCAL_CAPTTIME_RESET",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5116,
+            "name": "dWP_HST_UPDATE_L1",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5117,
+            "name": "dWP_HST_UPDATE_L2",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5118,
+            "name": "dWP_HST_UPDATE_L3",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5119,
+            "name": "dWP_HST_UPDATE_L4",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5120,
+            "name": "dWP_HST_COUNT",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5121,
+            "name": "dWP_HST_ON",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5122,
+            "name": "dWP_HST_RESET",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5125,
+            "name": "dWP_STATECAPTURE",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5126,
+            "name": "dWP_HST_SAVE",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5127,
+            "name": "dWP_HST_LOGSIZE",
+            "flags": [],
+            "defVal": 10
+        },
+        {
+            "id": 5129,
+            "name": "dWP_PERFORMRESTORE",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5130,
+            "name": "dWP_PERFORMBACKUP",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5133,
+            "name": "dWP_CAPTUREWAVEFORM",
+            "flags": [],
+            "defVal": 0
+        },
+        {
+            "id": 5136,
+            "name": "dBLACKLIST_ADD",
+            "flags": [],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 5137,
+            "name": "dBLACKLIST_REMOVE",
+            "flags": [],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 5138,
+            "name": "dSERIAL0_PORT",
+            "flags": [],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 5139,
+            "name": "dSERIAL1_PORT",
+            "flags": [],
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 6020,
+            "name": "dETHERNETIP_TMO",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 120
+        },
+        {
+            "id": 246267631,
+            "name": "dDEADBEEF",
+            "flags": [
+                "ro",
+                "hex"
+            ],
+            "defVal": -559038737
+        }
+    ],
+    "enum": [
+        {
+            "id": 121,
+            "name": "dCAN_BAUD_CODE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "id": 122,
+            "name": "dCAN_BOI_ACTION",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1
+            ]
+        },
+        {
+            "id": 126,
+            "name": "dPBDP_NO_ADDR_CHANGE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1
+            ]
+        },
+        {
+            "id": 131,
+            "name": "dRS232_0_BAUD",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -29,
+            "values": [
+                -32,
+                -31,
+                -30,
+                -29,
+                -28,
+                -27,
+                -26,
+                -25,
+                -24
+            ]
+        },
+        {
+            "id": 132,
+            "name": "dRS232_0_DBITS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 8,
+            "values": [
+                7,
+                8
+            ]
+        },
+        {
+            "id": 133,
+            "name": "dRS232_0_PARITY",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "id": 134,
+            "name": "dRS232_0_SBITS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1,
+            "values": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 135,
+            "name": "dRS232_0_FLOW",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "id": 141,
+            "name": "dRS232_1_BAUD",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -27,
+            "values": [
+                -32,
+                -31,
+                -30,
+                -29,
+                -28,
+                -27,
+                -26,
+                -25,
+                -24
+            ]
+        },
+        {
+            "id": 142,
+            "name": "dRS232_1_DBITS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 8,
+            "values": [
+                7,
+                8
+            ]
+        },
+        {
+            "id": 143,
+            "name": "dRS232_1_PARITY",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "id": 144,
+            "name": "dRS232_1_SBITS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1,
+            "values": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 145,
+            "name": "dRS232_1_FLOW",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "id": 151,
+            "name": "dNUM_PTRANS",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1
+            ]
+        },
+        {
+            "id": 152,
+            "name": "dTRANS_TYPE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                100
+            ]
+        },
+        {
+            "id": 155,
+            "name": "dNUM_DIEBOLTS",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 4,
+            "values": [
+                4,
+                6
+            ]
+        },
+        {
+            "id": 156,
+            "name": "dDIEBOLTS_ANGLE",
+            "flags": [
+                "nv"
+            ],
+            "defVal": -55,
+            "values": [
+                -55,
+                -54
+            ]
+        },
+        {
+            "id": 159,
+            "name": "dOLED_DISPLAY_OPTION",
+            "flags": [
+                "nv"
+            ],
+            "defVal": -717,
+            "values": [
+                -717,
+                -718
+            ]
+        },
+        {
+            "id": 160,
+            "name": "dSYS_MODE",
+            "flags": [
+                "nv"
+            ],
+            "defVal": -55,
+            "values": [
+                -55,
+                -54
+            ]
+        },
+        {
+            "id": 163,
+            "name": "dMEAS_UNITS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -16,
+            "values": [
+                -16,
+                -15
+            ]
+        },
+        {
+            "id": 164,
+            "name": "dAVGMODE_DISCR",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -55,
+            "values": [
+                -55,
+                -54
+            ]
+        },
+        {
+            "id": 165,
+            "name": "dSTATICAVG_UNITS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -326,
+            "values": [
+                -328,
+                -327,
+                -326
+            ]
+        },
+        {
+            "id": 167,
+            "name": "dSAMPWIN_MODE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -8,
+            "values": [
+                -324,
+                -11,
+                -8
+            ]
+        },
+        {
+            "id": 200,
+            "name": "dFILT_ENAB",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -54,
+            "values": [
+                -55,
+                -54
+            ]
+        },
+        {
+            "id": 207,
+            "name": "dAUTO_IGNORE_MODE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -291,
+            "values": [
+                -292,
+                -291,
+                -290
+            ]
+        },
+        {
+            "id": 250,
+            "name": "dTVG_ENABLE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -55,
+            "values": [
+                -317,
+                -316,
+                -315,
+                -314,
+                -55
+            ]
+        },
+        {
+            "id": 270,
+            "name": "dWPC_MODE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -294,
+            "values": [
+                -11,
+                -293,
+                -294,
+                -295,
+                -303,
+                -325
+            ]
+        },
+        {
+            "id": 271,
+            "name": "dWPC_PROFILING",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -55,
+            "values": [
+                -55,
+                -54
+            ]
+        },
+        {
+            "id": 273,
+            "name": "dWPC_STATISTICFILT",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -55,
+            "values": [
+                -55,
+                -54
+            ]
+        },
+        {
+            "id": 275,
+            "name": "dWPC_INVERTWAVE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -55,
+            "values": [
+                -55,
+                -54
+            ]
+        },
+        {
+            "id": 280,
+            "name": "dGAUGE_TXDR_MOVE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -253,
+            "values": [
+                -257,
+                -256,
+                -255,
+                -254,
+                -253
+            ]
+        },
+        {
+            "id": 281,
+            "name": "dGAUGE_TXDR_ENABLE",
+            "flags": [
+                "nv",
+                "hex",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -1,
+            "values": [
+                0,
+                -1
+            ]
+        },
+        {
+            "id": 310,
+            "name": "dCAL_OPMODE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -6,
+            "values": [
+                -259,
+                -6,
+                0
+            ]
+        },
+        {
+            "id": 370,
+            "name": "dHST_MODE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -55,
+            "values": [
+                -217,
+                -216,
+                -55
+            ]
+        },
+        {
+            "id": 540,
+            "name": "dCON_MODE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": -212,
+            "values": [
+                -215,
+                -212,
+                -211,
+                -112,
+                -110,
+                -97
+            ]
+        },
+        {
+            "id": 987,
+            "name": "dWP_MODE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ]
+        },
+        {
+            "id": 1050,
+            "name": "dWP_MANPOLARITY1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        {
+            "id": 1051,
+            "name": "dWP_MANPOLARITY2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        {
+            "id": 1052,
+            "name": "dWP_MANPOLARITY3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        {
+            "id": 1053,
+            "name": "dWP_MANPOLARITY4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        {
+            "id": 1054,
+            "name": "dWP_MANPOLARITY5",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        {
+            "id": 5018,
+            "name": "dWP_WAVETYPE",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "id": 5022,
+            "name": "dWP_READY",
+            "flags": [],
+            "defVal": 0,
+            "values": [
+                0,
+                1
+            ]
+        },
+        {
+            "id": 5039,
+            "name": "dGAUGE_MODEL_ENUM",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ]
+        },
+        {
+            "id": 5108,
+            "name": "dTRANS_TYPE1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "id": 5109,
+            "name": "dTRANS_TYPE2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "id": 5110,
+            "name": "dTRANS_TYPE3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "id": 5111,
+            "name": "dTRANS_TYPE4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "id": 5112,
+            "name": "dTRANS_TYPE5",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "id": 5113,
+            "name": "dTRANS_TYPE6",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "id": 5114,
+            "name": "dTRANS_TYPE7",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "id": 5115,
+            "name": "dTRANS_TYPE8",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        {
+            "id": 5066,
+            "name": "dSIMULATE_DATA",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 0,
+            "values": [
+                0,
+                1
+            ]
+        },
+        {
+            "id": 6000,
+            "name": "dZERO",
+            "defVal": 0,
+            "values": [
+                0
+            ]
+        }
+    ],
+    "float": [
+        {
+            "id": 110,
+            "name": "dWATER_TEMP",
+            "flags": [
+                ""
+            ],
+            "convert": "celfar",
+            "defVal": 20,
+            "minVal": 0.0,
+            "maxVal": 100.0
+        },
+        {
+            "id": 112,
+            "name": "dWATER_CALTEMP",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "celfar",
+            "defVal": 20,
+            "minVal": 0.0,
+            "maxVal": 100.0
+        },
+        {
+            "id": 137,
+            "name": "dRS232_0_XMTRATE",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 1,
+            "minVal": 0.01
+        },
+        {
+            "id": 147,
+            "name": "dRS232_1_XMTRATE",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 1,
+            "minVal": 0.01
+        },
+        {
+            "id": 149,
+            "name": "dGAUGE_DIAM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 25.4,
+            "minVal": 0,
+            "maxVal": 5000.0
+        },
+        {
+            "id": 157,
+            "name": "dTRANS_ANGLE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0.0,
+            "minVal": -3.1415926,
+            "maxVal": 3.1415926
+        },
+        {
+            "id": 158,
+            "name": "dPROD_ANGLE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0.0,
+            "minVal": -3.1415926,
+            "maxVal": 3.1415926
+        },
+        {
+            "id": 166,
+            "name": "dSTATICAVG_DUR",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1.0,
+            "minVal": 0.01,
+            "maxVal": 8000.0
+        },
+        {
+            "id": 220,
+            "name": "dINITIAL_GAIN",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0.0,
+            "minVal": -100.0,
+            "maxVal": 100.0
+        },
+        {
+            "id": 260,
+            "name": "dTVG_THRESH1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0.0,
+            "minVal": 0.0,
+            "maxVal": 100.0
+        },
+        {
+            "id": 274,
+            "name": "dWPC_PITCHPERIOD",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 5.00,
+            "minVal": 0.05
+        },
+        {
+            "id": 285,
+            "name": "dUNKNOWN_CELL1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1.00
+        },
+        {
+            "id": 311,
+            "name": "dCAL_TRANSANGL",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "minVal": -3.1415926,
+            "maxVal": 3.1415926
+        },
+        {
+            "id": 314,
+            "name": "dCAL_TRANSANGLCAPT",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 320,
+            "name": "dODCAL_SMALL",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 321,
+            "name": "dODCAL_LARGE",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 323,
+            "name": "dCAL_OFLM_L1",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 324,
+            "name": "dCAL_OFLM_L2",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 325,
+            "name": "dCAL_OFLM_L3",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 326,
+            "name": "dCAL_OFLM_L4",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 327,
+            "name": "dCAL_LINE_SPEED",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 328,
+            "name": "dLINE_SPEED",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 330,
+            "name": "dGAP_T1",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 331,
+            "name": "dGAP_T2",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 332,
+            "name": "dGAP_T3",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 333,
+            "name": "dGAP_T4",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 334,
+            "name": "dGAP_T5",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 335,
+            "name": "dGAP_T6",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 336,
+            "name": "dGAP_T7",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 337,
+            "name": "dGAP_T8",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 340,
+            "name": "dPPOS_X0",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": -100.0,
+            "maxVal": 100.0
+        },
+        {
+            "id": 341,
+            "name": "dPPOS_Y0",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": -100.0,
+            "maxVal": 100.0
+        },
+        {
+            "id": 342,
+            "name": "dL1_XPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": -100.0,
+            "maxVal": 100.0,
+            "desc": {
+                "en": "Position vector for layer 1 (X plane) = center of layer 1 referenced from the center of the OD. Positive X plane is 90 degrees from transducer 1 in the direction of transducer 2. The value of this data base cell is included in packet(s) {P0}, {P12}, {P66}.",
+                "es": "Vector de posición de la capa 1 (X avión) = centro de la capa 1 se hace referencia desde el centro de la OD. Positivo plano X es 90 grados desde el transductor 1 en la dirección del transductor 2. El valor de esta celda de base de datos está incluido en los paquetes {P0}, {P12}, {P66}.",
+                "it": "vettore posizione per il livello 1 (piano X) = centro di strato 1 riferimento dal centro della OD. X piano positivo è di 90 gradi dal trasduttore 1 in direzione trasduttore 2. Il valore di questa cella banca dati è incluso in pacchetti {P0}, {P12}, {P66}.",
+                "fr": "vecteur de position pour la couche 1 (plan X) = centre de la couche 1 à partir du centre de l'OD. Plan X positif est de 90 degrés par rapport à transducteur 1 dans la direction du transducteur 2. La valeur de cette cellule de base de données est incluse dans les paquets {P0}, {P12}, {P66}.",
+                "de": "Positionsvektor für die Schicht 1 (X-Ebene) = Zentrum der Schicht 1 aus der Mitte des OD verwiesen. Positive X-Ebene 90 Grad von dem Wandler 1 in Richtung des Wandlers 2. Der Wert dieser Datenzelle in Paketen {P0}, {P12}, {P66} enthalten.",
+                "zh": "图层1（X平面）=从OD的中心参考1层的中心位置向量。正X平面为从换能器1在换能器2。该数据库单元的值的方向上成90度被包括在数据包{P0}，{P12}，{P66}",
+                "ja": "レイヤ1（X面）= ODの中心から参照層1の中心のための位置ベクトル。正のXプレーンは、パケット{P0}、{P12}、{P66}に含まれる変換器2は、このデータベースのセルの値の方向に変換器1から90度である"
+            }
+        },
+        {
+            "id": 343,
+            "name": "dL1_YPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": -100.0,
+            "maxVal": 100.0,
+            "desc": {
+                "en": "Position vector for layer 1 (Y plane) = center of layer 1 referenced from the center of the OD. Positive Y plane is towards transducer 1. The value of this database cell is included in packets {P0}, {P12}, {P66}.",
+                "es": "Vector de posición de la capa 1 (plano Y) = centro de la capa 1 se hace referencia desde el centro de la OD. Positivo plano Y es hacia transductor 1. El valor de esta celda de base de datos está incluido en los paquetes {P0}, {P12}, {P66}.",
+                "it": "vettore posizione per il livello 1 (Y piano) = centro di strato 1 riferimento dal centro della OD. Positive piano Y è verso trasduttore 1. Il valore di questa cella database è incluso nei pacchetti {P0}, {P12}, {P66}.",
+                "fr": "vecteur de position pour la couche 1 (Y avion) = centre de la couche 1 à partir du centre de l'OD. Plan Y est positif vers le transducteur 1. La valeur de cette cellule de base de données est incluse dans les paquets {P0}, {P12}, {P66}.",
+                "de": "Positionsvektor für die Schicht 1 (Y-Ebene) = Zentrum der Schicht 1 aus der Mitte des OD verwiesen. Positive Y-Ebene ist in Richtung Wandler 1. Der Wert dieser Datenzelle in Paketen enthalten {P0}, {P12}, {P66}.",
+                "zh": "为第1层（Y平面）=从OD的中心参考1层的中心位置向量。正Y平面是朝向换能器1。该数据库单元的值被包含在分组{P0}，{P12}，{P66}。",
+                "ja": "レイヤ1（Y面）= ODの中心から参照層1の中心のための位置ベクトル。正のY面は、このデータベース·セルの値がパケットに{P0}、{P12}、{P66}を含まれているトランスデューサー1に向かっている。"
+            }
+        },
+        {
+            "id": 344,
+            "name": "dL2_XPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "desc": {
+                "en": "Position vector for layer 2 (X plane) = center of layer 2 referenced from the center of the OD. Positive X plane is 90 degrees from transducer 2 in the direction of transducer 2. The value of this data base cell is included in packet(s) {P0}, {P12}, {P66}.",
+                "es": "Vector de posición de la capa 2 (X avión) = centro de la capa 2 se hace referencia desde el centro de la OD. Positivo plano X es 90 grados desde el transductor 2 en la dirección del transductor 2. El valor de esta celda de base de datos está incluido en los paquetes {P0}, {P12}, {P66}.",
+                "it": "vettore posizione per il livello 2 (piano X) = centro di strato 2 riferimento dal centro della OD. X piano positivo è di 90 gradi dal trasduttore 2 in direzione trasduttore 2. Il valore di questa cella banca dati è incluso in pacchetti {P0}, {P12}, {P66}.",
+                "fr": "vecteur de position pour la couche 2 (plan X) = centre de la couche 2 à partir du centre de l'OD. Plan X positif est de 90 degrés par rapport à transducteur 2 dans la direction du transducteur 2. La valeur de cette cellule de base de données est incluse dans les paquets {P0}, {P12}, {P66}.",
+                "de": "Positionsvektor für die Schicht 2 (X-Ebene) = Zentrum der Schicht 2 aus der Mitte des OD verwiesen. Positive X-Ebene 90 Grad von dem Wandler 2 in Richtung des Wandlers 2. Der Wert dieser Datenzelle in Paketen {P0}, {P12}, {P66} enthalten.",
+                "zh": "图层2（X平面）=从OD的中心参考2层的中心位置向量。正X平面为从换能器2在换能器2。该数据库单元的值的方向上成90度被包括在数据包{P0}，{P12}，{P66}",
+                "ja": "レイヤ2（X面）= ODの中心から参照層2の中心のための位置ベクトル。正のXプレーンは、パケット{P0}、{P12}、{P66}に含まれる変換器2は、このデータベースのセルの値の方向に変換器2から90度である"
+            }
+        },
+        {
+            "id": 345,
+            "name": "dL2_YPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "desc": {
+                "en": "Position vector for layer 2 (Y plane) = center of layer 2 referenced from the center of the OD. Positive Y plane is towards transducer 2. The value of this database cell is included in packets {P0}, {P12}, {P66}.",
+                "es": "Vector de posición de la capa 2 (plano Y) = centro de la capa 2 se hace referencia desde el centro de la OD. Positivo plano Y es hacia transductor 2. El valor de esta celda de base de datos está incluido en los paquetes {P0}, {P12}, {P66}.",
+                "it": "vettore posizione per il livello 2 (Y piano) = centro di strato 2 riferimento dal centro della OD. Positive piano Y è verso trasduttore 1. Il valore di questa cella database è incluso nei pacchetti {P0}, {P12}, {P66}.",
+                "fr": "vecteur de position pour la couche 2 (Y avion) = centre de la couche 2 à partir du centre de l'OD. Plan Y est positif vers le transducteur 1. La valeur de cette cellule de base de données est incluse dans les paquets {P0}, {P12}, {P66}.",
+                "de": "Positionsvektor für die Schicht 2 (Y-Ebene) = Zentrum der Schicht 2 aus der Mitte des OD verwiesen. Positive Y-Ebene ist in Richtung Wandler 1. Der Wert dieser Datenzelle in Paketen enthalten {P0}, {P12}, {P66}.",
+                "zh": "为第2层（Y平面）=从OD的中心参考2层的中心位置向量。正Y平面是朝向换能器2。该数据库单元的值被包含在分组{P0}，{P12}，{P66}。",
+                "ja": "レイヤ2（Y面）= ODの中心から参照層2の中心のための位置ベクトル。正のY面は、このデータベース·セルの値がパケットに{P0}、{P12}、{P66}を含まれているトランスデューサー2に向かっている。"
+            }
+        },
+        {
+            "id": 346,
+            "name": "dL3_XPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "desc": {
+                "en": "Position vector for layer 3 (X plane) = center of layer 3 referenced from the center of the OD. Positive X plane is 90 degrees from transducer 3 in the direction of transducer 3. The value of this data base cell is included in packet(s) {P0}, {P12}, {P66}.",
+                "es": "Vector de posición de la capa 3 (X avión) = centro de la capa 3 se hace referencia desde el centro de la OD. Positivo plano X es 90 grados desde el transductor 3 en la dirección del transductor 3. El valor de esta celda de base de datos está incluido en los paquetes {P0}, {P12}, {P66}.",
+                "it": "vettore posizione per il livello 3 (piano X) = centro di strato 3 riferimento dal centro della OD. X piano positivo è di 90 gradi dal trasduttore 3 in direzione trasduttore 3. Il valore di questa cella banca dati è incluso in pacchetti {P0}, {P12}, {P66}.",
+                "fr": "vecteur de position pour la couche 3 (plan X) = centre de la couche 3 à partir du centre de l'OD. Plan X positif est de 90 degrés par rapport à transducteur 3 dans la direction du transducteur 3. La valeur de cette cellule de base de données est incluse dans les paquets {P0}, {P12}, {P66}.",
+                "de": "Positionsvektor für die Schicht 3 (X-Ebene) = Zentrum der Schicht 3 aus der Mitte des OD verwiesen. Positive X-Ebene 90 Grad von dem Wandler 3 in Richtung des Wandlers 3. Der Wert dieser Datenzelle in Paketen {P0}, {P12}, {P66} enthalten.",
+                "zh": "图层3（X平面）=从OD的中心参考3层的中心位置向量。正X平面为从换能器3在换能器3。该数据库单元的值的方向上成90度被包括在数据包{P0}，{P12}，{P66}",
+                "ja": "レイヤ3（X面）= ODの中心から参照層3の中心のための位置ベクトル。正のXプレーンは、パケット{P0}、{P12}、{P66}に含まれる変換器3は、このデータベースのセルの値の方向に変換器3から90度である"
+            }
+        },
+        {
+            "id": 347,
+            "name": "dL3_YPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "desc": {
+                "en": "Position vector for layer 3 (Y plane) = center of layer 3 referenced from the center of the OD. Positive Y plane is towards transducer 3. The value of this database cell is included in packets {P0}, {P12}, {P66}.",
+                "es": "Vector de posición de la capa 3 (plano Y) = centro de la capa 3 se hace referencia desde el centro de la OD. Positivo plano Y es hacia transductor 3. El valor de esta celda de base de datos está incluido en los paquetes {P0}, {P12}, {P66}.",
+                "it": "vettore posizione per il livello 3 (Y piano) = centro di strato 3 riferimento dal centro della OD. Positive piano Y è verso trasduttore 1. Il valore di questa cella database è incluso nei pacchetti {P0}, {P12}, {P66}.",
+                "fr": "vecteur de position pour la couche 3 (Y avion) = centre de la couche 3 à partir du centre de l'OD. Plan Y est positif vers le transducteur 1. La valeur de cette cellule de base de données est incluse dans les paquets {P0}, {P12}, {P66}.",
+                "de": "Positionsvektor für die Schicht 3 (Y-Ebene) = Zentrum der Schicht 3 aus der Mitte des OD verwiesen. Positive Y-Ebene ist in Richtung Wandler 1. Der Wert dieser Datenzelle in Paketen enthalten {P0}, {P12}, {P66}.",
+                "zh": "为第3层（Y平面）=从OD的中心参考3层的中心位置向量。正Y平面是朝向换能器3。该数据库单元的值被包含在分组{P0}，{P12}，{P66}。",
+                "ja": "レイヤ3（Y面）= ODの中心から参照層3の中心のための位置ベクトル。正のY面は、このデータベース·セルの値がパケットに{P0}、{P12}、{P66}を含まれているトランスデューサー2に向かっている。"
+            }
+        },
+        {
+            "id": 348,
+            "name": "dL4_XPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "desc": {
+                "en": "Position vector for layer 4 (X plane) = center of layer 4 referenced from the center of the OD. Positive X plane is 90 degrees from transducer 4 in the direction of transducer 4. The value of this data base cell is included in packet(s) {P0}, {P12}, {P66}.",
+                "es": "Vector de posición de la capa 4 (X avión) = centro de la capa 4 se hace referencia desde el centro de la OD. Positivo plano X es 90 grados desde el transductor 4 en la dirección del transductor 4. El valor de esta celda de base de datos está incluido en los paquetes {P0}, {P12}, {P66}.",
+                "it": "vettore posizione per il livello 4 (piano X) = centro di strato 4 riferimento dal centro della OD. X piano positivo è di 90 gradi dal trasduttore 4 in direzione trasduttore 4. Il valore di questa cella banca dati è incluso in pacchetti {P0}, {P12}, {P66}.",
+                "fr": "vecteur de position pour la couche 4 (plan X) = centre de la couche 4 à partir du centre de l'OD. Plan X positif est de 90 degrés par rapport à transducteur 4 dans la direction du transducteur 4. La valeur de cette cellule de base de données est incluse dans les paquets {P0}, {P12}, {P66}.",
+                "de": "Positionsvektor für die Schicht 4 (X-Ebene) = Zentrum der Schicht 4 aus der Mitte des OD verwiesen. Positive X-Ebene 90 Grad von dem Wandler 4 in Richtung des Wandlers 4. Der Wert dieser Datenzelle in Paketen {P0}, {P12}, {P66} enthalten.",
+                "zh": "图层4（X平面）=从OD的中心参考4层的中心位置向量。正X平面为从换能器4在换能器4。该数据库单元的值的方向上成90度被包括在数据包{P0}，{P12}，{P66}",
+                "ja": "レイヤ4（X面）= ODの中心から参照層4の中心のための位置ベクトル。正のXプレーンは、パケット{P0}、{P12}、{P66}に含まれる変換器4は、このデータベースのセルの値の方向に変換器4から90度である"
+            }
+        },
+        {
+            "id": 349,
+            "name": "dL4_YPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "desc": {
+                "en": "Position vector for layer 4 (Y plane) = center of layer 4 referenced from the center of the OD. Positive Y plane is towards transducer 4. The value of this database cell is included in packets {P0}, {P12}, {P66}.",
+                "es": "Vector de posición de la capa 4 (plano Y) = centro de la capa 4 se hace referencia desde el centro de la OD. Positivo plano Y es hacia transductor 4. El valor de esta celda de base de datos está incluido en los paquetes {P0}, {P12}, {P66}.",
+                "it": "vettore posizione per il livello 4 (Y piano) = centro di strato 4 riferimento dal centro della OD. Positive piano Y è verso trasduttore 1. Il valore di questa cella database è incluso nei pacchetti {P0}, {P12}, {P66}.",
+                "fr": "vecteur de position pour la couche 4 (Y avion) = centre de la couche 4 à partir du centre de l'OD. Plan Y est positif vers le transducteur 1. La valeur de cette cellule de base de données est incluse dans les paquets {P0}, {P12}, {P66}.",
+                "de": "Positionsvektor für die Schicht 4 (Y-Ebene) = Zentrum der Schicht 4 aus der Mitte des OD verwiesen. Positive Y-Ebene ist in Richtung Wandler 1. Der Wert dieser Datenzelle in Paketen enthalten {P0}, {P12}, {P66}.",
+                "zh": "为第4层（Y平面）=从OD的中心参考4层的中心位置向量。正Y平面是朝向换能器4。该数据库单元的值被包含在分组{P0}，{P12}，{P66}。",
+                "ja": "レイヤ4（Y面）= ODの中心から参照層4の中心のための位置ベクトル。正のY面は、このデータベース·セルの値がパケットに{P0}、{P12}、{P66}を含まれているトランスデューサー2に向かっている。"
+            }
+        },
+        {
+            "id": 351,
+            "name": "dCAL_RAWODCAPTURE",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 352,
+            "name": "dCAL_LINESPEEDCAPT",
+            "flags": [
+                "ro",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 376,
+            "name": "dHST_ERRPKTRATE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0.6,
+            "minVal": 0
+        },
+        {
+            "id": 380,
+            "name": "dRVS_ROTRATE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1,
+            "maxVal": 100,
+            "minVal": 0
+        },
+        {
+            "id": 381,
+            "name": "dRVS_GOTOANGLE",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "minVal": -3.1415926,
+            "maxVal": 3.1415926
+        },
+        {
+            "id": 385,
+            "name": "dRVS_REVANGLE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 320,
+            "minVal": 0,
+            "maxVal": 360
+        },
+        {
+            "id": 400,
+            "name": "dOD_OFFSET",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": -360,
+            "maxVal": 360
+        },
+        {
+            "id": 401,
+            "name": "dOD_SCALE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1.0,
+            "minVal": 0
+        },
+        {
+            "id": 402,
+            "name": "dOD_AVG_CAL",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 403,
+            "name": "dOD_AVG_UNCOMP",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 404,
+            "name": "dOD_PRESET",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 405,
+            "name": "dOD_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 406,
+            "name": "dOD_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 407,
+            "name": "dOD_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 408,
+            "name": "dOD_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 409,
+            "name": "dOD_AVG_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 410,
+            "name": "dOD_AVG_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 411,
+            "name": "dOD_AVG_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 412,
+            "name": "dOD_AVG_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 413,
+            "name": "dOD_AXIS1",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 414,
+            "name": "dOD_AXIS2",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 415,
+            "name": "dOD_AXIS3",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 416,
+            "name": "dOD_AXIS4",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 421,
+            "name": "dOD_MIN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 422,
+            "name": "dOD_MIN_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 423,
+            "name": "dOD_MAX",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 424,
+            "name": "dOD_MAX_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 425,
+            "name": "dOD_AVG",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 450,
+            "name": "dOD_OVAL_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 451,
+            "name": "dOD_OVAL_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 452,
+            "name": "dOD_OVALITY",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 500,
+            "name": "dL1_SOS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 2.2225,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 501,
+            "name": "dL1_PRESET",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 502,
+            "name": "dL1_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 503,
+            "name": "dL1_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 504,
+            "name": "dL1_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 505,
+            "name": "dL1_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 506,
+            "name": "dL1_AVG_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 507,
+            "name": "dL1_AVG_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 508,
+            "name": "dL1_AVG_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 509,
+            "name": "dL1_AVG_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 510,
+            "name": "dL1_WALL1",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 511,
+            "name": "dL1_WALL2",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 512,
+            "name": "dL1_WALL3",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 513,
+            "name": "dL1_WALL4",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 514,
+            "name": "dL1_WALL5",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 515,
+            "name": "dL1_WALL6",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 516,
+            "name": "dL1_WALL7",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 517,
+            "name": "dL1_WALL8",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 532,
+            "name": "dL1_MIN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 533,
+            "name": "dL1_MIN_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0,
+            "minVal": -10,
+            "maxVal": 10
+        },
+        {
+            "id": 534,
+            "name": "dL1_MAX",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 535,
+            "name": "dL1_MAX_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0,
+            "minVal": -10,
+            "maxVal": 10
+        },
+        {
+            "id": 536,
+            "name": "dL1_AVG",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 541,
+            "name": "dL1_CON_WLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 542,
+            "name": "dL1_CON_RLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 543,
+            "name": "dL1_CON",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 545,
+            "name": "dL1_AREA",
+            "flags": [
+                "ro",
+                "sci"
+            ],
+            "convert": "none",
+            "defVal": 0
+        },
+        {
+            "id": 547,
+            "name": "dL1_AVGWALLTIME",
+            "flags": [
+                "ro",
+                "sci"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 553,
+            "name": "dL1_HST_NOM_WALL",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 554,
+            "name": "dL1_HST_UPPER_OFF",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 555,
+            "name": "dL1_HST_LOWER_OFF",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 560,
+            "name": "dL1_SEC_WCAL_COMP1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 561,
+            "name": "dL1_SEC_WCAL_COMP2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 562,
+            "name": "dL1_SEC_WCAL_COMP3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 563,
+            "name": "dL1_SEC_WCAL_COMP4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 564,
+            "name": "dL1_SEC_WCAL_COMP5",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 565,
+            "name": "dL1_SEC_WCAL_COMP6",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 566,
+            "name": "dL1_SEC_WCAL_COMP7",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 567,
+            "name": "dL1_SEC_WCAL_COMP8",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 570,
+            "name": "dL1_SEC_WCAL_VAL1",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 571,
+            "name": "dL1_SEC_WCAL_VAL2",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 572,
+            "name": "dL1_SEC_WCAL_VAL3",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 573,
+            "name": "dL1_SEC_WCAL_VAL4",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 574,
+            "name": "dL1_SEC_WCAL_VAL5",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 575,
+            "name": "dL1_SEC_WCAL_VAL6",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 576,
+            "name": "dL1_SEC_WCAL_VAL7",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 577,
+            "name": "dL1_SEC_WCAL_VAL8",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 580,
+            "name": "dL1_WCAL_SOSSLOPE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 581,
+            "name": "dL1_WCAL_SOSINTER",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0.0875,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 600,
+            "name": "dL2_SOS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 2.2225,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 601,
+            "name": "dL2_PRESET",
+            "flags": [
+                "nv"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 602,
+            "name": "dL2_LRLIM",
+            "flags": [
+                "nv"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 603,
+            "name": "dL2_LWLIM",
+            "flags": [
+                "nv"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 604,
+            "name": "dL2_UWLIM",
+            "flags": [
+                "nv"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 605,
+            "name": "dL2_URLIM",
+            "flags": [
+                "nv"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 606,
+            "name": "dL2_AVG_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 607,
+            "name": "dL2_AVG_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 608,
+            "name": "dL2_AVG_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 609,
+            "name": "dL2_AVG_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 610,
+            "name": "dL2_WALL1",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 611,
+            "name": "dL2_WALL2",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 612,
+            "name": "dL2_WALL3",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 613,
+            "name": "dL2_WALL4",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 614,
+            "name": "dL2_WALL5",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 615,
+            "name": "dL2_WALL6",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 616,
+            "name": "dL2_WALL7",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 617,
+            "name": "dL2_WALL8",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 636,
+            "name": "dL2_AVG",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 632,
+            "name": "dL2_MIN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 633,
+            "name": "dL2_MIN_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 634,
+            "name": "dL2_MAX",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 635,
+            "name": "dL2_MAX_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 641,
+            "name": "dL2_CON_WLIM",
+            "flags": [
+                "nv"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 642,
+            "name": "dL2_CON_RLIM",
+            "flags": [
+                "nv"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 643,
+            "name": "dL2_CON",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 645,
+            "name": "dL2_AREA",
+            "flags": [
+                "ro",
+                "sci"
+            ],
+            "convert": "none",
+            "defVal": 0
+        },
+        {
+            "id": 647,
+            "name": "dL2_AVGWALLTIME",
+            "flags": [
+                "ro",
+                "sci"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 653,
+            "name": "dL2_HST_NOM_WALL",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 654,
+            "name": "dL2_HST_UPPER_OFF",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 655,
+            "name": "dL2_HST_LOWER_OFF",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 660,
+            "name": "dL2_SEC_WCAL_COMP1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 661,
+            "name": "dL2_SEC_WCAL_COMP2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 662,
+            "name": "dL2_SEC_WCAL_COMP3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 663,
+            "name": "dL2_SEC_WCAL_COMP4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 664,
+            "name": "dL2_SEC_WCAL_COMP5",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 665,
+            "name": "dL2_SEC_WCAL_COMP6",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 666,
+            "name": "dL2_SEC_WCAL_COMP7",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 667,
+            "name": "dL2_SEC_WCAL_COMP8",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 670,
+            "name": "dL2_SEC_WCAL_VAL1",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 671,
+            "name": "dL2_SEC_WCAL_VAL2",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 672,
+            "name": "dL2_SEC_WCAL_VAL3",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 673,
+            "name": "dL2_SEC_WCAL_VAL4",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 674,
+            "name": "dL2_SEC_WCAL_VAL5",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 675,
+            "name": "dL2_SEC_WCAL_VAL6",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 676,
+            "name": "dL2_SEC_WCAL_VAL7",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 677,
+            "name": "dL2_SEC_WCAL_VAL8",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 680,
+            "name": "dL2_WCAL_SOSSLOPE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 681,
+            "name": "dL2_WCAL_SOSINTER",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0.0875
+        },
+        {
+            "id": 700,
+            "name": "dL3_SOS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 2.2225,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 701,
+            "name": "dL3_PRESET",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 702,
+            "name": "dL3_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 703,
+            "name": "dL3_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 704,
+            "name": "dL3_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 705,
+            "name": "dL3_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 706,
+            "name": "dL3_AVG_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 707,
+            "name": "dL3_AVG_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 708,
+            "name": "dL3_AVG_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 709,
+            "name": "dL3_AVG_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 710,
+            "name": "dL3_WALL1",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 711,
+            "name": "dL3_WALL2",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 712,
+            "name": "dL3_WALL3",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 713,
+            "name": "dL3_WALL4",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 714,
+            "name": "dL3_WALL5",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 715,
+            "name": "dL3_WALL6",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 716,
+            "name": "dL3_WALL7",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 717,
+            "name": "dL3_WALL8",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 736,
+            "name": "dL3_AVG",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 732,
+            "name": "dL3_MIN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 733,
+            "name": "dL3_MIN_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 734,
+            "name": "dL3_MAX",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 735,
+            "name": "dL3_MAX_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 741,
+            "name": "dL3_CON_WLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 742,
+            "name": "dL3_CON_RLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 743,
+            "name": "dL3_CON",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 745,
+            "name": "dL3_AREA",
+            "flags": [
+                "ro",
+                "sci"
+            ],
+            "convert": "none",
+            "defVal": 0
+        },
+        {
+            "id": 747,
+            "name": "dL3_AVGWALLTIME",
+            "flags": [
+                "ro",
+                "sci"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 753,
+            "name": "dL3_HST_NOM_WALL",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 754,
+            "name": "dL3_HST_UPPER_OFF",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 755,
+            "name": "dL3_HST_LOWER_OFF",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 760,
+            "name": "dL3_SEC_WCAL_COMP1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 761,
+            "name": "dL3_SEC_WCAL_COMP2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 762,
+            "name": "dL3_SEC_WCAL_COMP3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 763,
+            "name": "dL3_SEC_WCAL_COMP4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 764,
+            "name": "dL3_SEC_WCAL_COMP5",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 765,
+            "name": "dL3_SEC_WCAL_COMP6",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 766,
+            "name": "dL3_SEC_WCAL_COMP7",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 767,
+            "name": "dL3_SEC_WCAL_COMP8",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 770,
+            "name": "dL3_SEC_WCAL_VAL1",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 771,
+            "name": "dL3_SEC_WCAL_VAL2",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 772,
+            "name": "dL3_SEC_WCAL_VAL3",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 773,
+            "name": "dL3_SEC_WCAL_VAL4",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 774,
+            "name": "dL3_SEC_WCAL_VAL5",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 775,
+            "name": "dL3_SEC_WCAL_VAL6",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 776,
+            "name": "dL3_SEC_WCAL_VAL7",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 777,
+            "name": "dL3_SEC_WCAL_VAL8",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 780,
+            "name": "dL3_WCAL_SOSSLOPE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 781,
+            "name": "dL3_WCAL_SOSINTER",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0.0875
+        },
+        {
+            "id": 800,
+            "name": "dL4_SOS",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 2.2225,
+            "minVal": -1000000,
+            "maxVal": 1000000
+        },
+        {
+            "id": 801,
+            "name": "dL4_PRESET",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 802,
+            "name": "dL4_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 803,
+            "name": "dL4_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 804,
+            "name": "dL4_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 805,
+            "name": "dL4_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 806,
+            "name": "dL4_AVG_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 807,
+            "name": "dL4_AVG_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 808,
+            "name": "dL4_AVG_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 809,
+            "name": "dL4_AVG_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 810,
+            "name": "dL4_WALL1",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 811,
+            "name": "dL4_WALL2",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 812,
+            "name": "dL4_WALL3",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 813,
+            "name": "dL4_WALL4",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 814,
+            "name": "dL4_WALL5",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 815,
+            "name": "dL4_WALL6",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 816,
+            "name": "dL4_WALL7",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 817,
+            "name": "dL4_WALL8",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 832,
+            "name": "dL4_MIN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 833,
+            "name": "dL4_MIN_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 834,
+            "name": "dL4_MAX",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 835,
+            "name": "dL4_MAX_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 836,
+            "name": "dL4_AVG",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 841,
+            "name": "dL4_CON_WLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 842,
+            "name": "dL4_CON_RLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 843,
+            "name": "dL4_CON",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 845,
+            "name": "dL4_AREA",
+            "flags": [
+                "ro",
+                "sci"
+            ],
+            "convert": "none",
+            "defVal": 0
+        },
+        {
+            "id": 847,
+            "name": "dL4_AVGWALLTIME",
+            "flags": [
+                "ro",
+                "sci"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 853,
+            "name": "dL4_HST_NOM_WALL",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 854,
+            "name": "dL4_HST_UPPER_OFF",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 855,
+            "name": "dL4_HST_LOWER_OFF",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 860,
+            "name": "dL4_SEC_WCAL_COMP1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 861,
+            "name": "dL4_SEC_WCAL_COMP2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 862,
+            "name": "dL4_SEC_WCAL_COMP3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 863,
+            "name": "dL4_SEC_WCAL_COMP4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 864,
+            "name": "dL4_SEC_WCAL_COMP5",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 865,
+            "name": "dL4_SEC_WCAL_COMP6",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 866,
+            "name": "dL4_SEC_WCAL_COMP7",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 867,
+            "name": "dL4_SEC_WCAL_COMP8",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 1
+        },
+        {
+            "id": 870,
+            "name": "dL4_SEC_WCAL_VAL1",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 871,
+            "name": "dL4_SEC_WCAL_VAL2",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 872,
+            "name": "dL4_SEC_WCAL_VAL3",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 873,
+            "name": "dL4_SEC_WCAL_VAL4",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 874,
+            "name": "dL4_SEC_WCAL_VAL5",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 875,
+            "name": "dL4_SEC_WCAL_VAL6",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 876,
+            "name": "dL4_SEC_WCAL_VAL7",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 877,
+            "name": "dL4_SEC_WCAL_VAL8",
+            "flags": [
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 880,
+            "name": "dL4_WCAL_SOSSLOPE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 881,
+            "name": "dL4_WCAL_SOSINTER",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0.0875
+        },
+        {
+            "id": 903,
+            "name": "dID_AVG_UNCOMP",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 904,
+            "name": "dID_PRESET",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 905,
+            "name": "dID_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 906,
+            "name": "dID_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 907,
+            "name": "dID_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 908,
+            "name": "dID_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 909,
+            "name": "dID_AVG_LRLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 910,
+            "name": "dID_AVG_LWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 911,
+            "name": "dID_AVG_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 912,
+            "name": "dID_AVG_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 1,
+            "minVal": 0
+        },
+        {
+            "id": 913,
+            "name": "dID_AXIS1",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 914,
+            "name": "dID_AXIS2",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 915,
+            "name": "dID_AXIS3",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 916,
+            "name": "dID_AXIS4",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 921,
+            "name": "dID_MIN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 922,
+            "name": "dID_MIN_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 923,
+            "name": "dID_MAX",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 924,
+            "name": "dID_MAX_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 925,
+            "name": "dID_AVG",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 950,
+            "name": "dID_OVAL_URLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 951,
+            "name": "dID_OVAL_UWLIM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": 0
+        },
+        {
+            "id": 952,
+            "name": "dID_OVALITY",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 2003,
+            "name": "dAVG_UPDRATE",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0.2,
+            "minVal": 0
+        },
+        {
+            "id": 2100,
+            "name": "dODCAL_AVGM",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "defVal": 0,
+            "minVal": -100000
+        },
+        {
+            "id": 2101,
+            "name": "dODCAL_B1",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": -100000
+        },
+        {
+            "id": 2102,
+            "name": "dODCAL_B2",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": -100000
+        },
+        {
+            "id": 2103,
+            "name": "dODCAL_B3",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": -100000
+        },
+        {
+            "id": 2104,
+            "name": "dODCAL_B4",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "mmin",
+            "defVal": 0,
+            "minVal": -100000
+        },
+        {
+            "id": 2105,
+            "name": "dODGAUGE_EXPAND",
+            "flags": [
+                "nv",
+                "sci",
+                "GENERAL_SYNC"
+            ],
+            "convert": "invertcelfar",
+            "defVal": 0
+        },
+        {
+            "id": 2106,
+            "name": "dODCAL_TEMP",
+            "flags": [
+                "nv",
+                "GENERAL_SYNC"
+            ],
+            "convert": "celfar",
+            "defVal": 0
+        },
+        {
+            "id": 2113,
+            "name": "dHSTP1_MAX_SIZE",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 2114,
+            "name": "dHSTP1_MIN_SIZE",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 2115,
+            "name": "dHSTP1_LNGST_ERROR",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2116,
+            "name": "dHSTP1_SHRT_ERROR",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2117,
+            "name": "dHSTP1_ERROR_LEN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2123,
+            "name": "dHSTP2_MAX_SIZE",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 2124,
+            "name": "dHSTP2_MIN_SIZE",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 2125,
+            "name": "dHSTP2_LNGST_ERROR",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2126,
+            "name": "dHSTP2_SHRT_ERROR",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2127,
+            "name": "dHSTP2_ERROR_LEN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2133,
+            "name": "dHSTP3_MAX_SIZE",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 2134,
+            "name": "dHSTP3_MIN_SIZE",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 2135,
+            "name": "dHSTP3_LNGST_ERROR",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2136,
+            "name": "dHSTP3_SHRT_ERROR",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2137,
+            "name": "dHSTP3_ERROR_LEN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2143,
+            "name": "dHSTP4_MAX_SIZE",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 2144,
+            "name": "dHSTP4_MIN_SIZE",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 2145,
+            "name": "dHSTP4_LNGST_ERROR",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2146,
+            "name": "dHSTP4_SHRT_ERROR",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2147,
+            "name": "dHSTP4_ERROR_LEN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mtrft",
+            "defVal": 0
+        },
+        {
+            "id": 2200,
+            "name": "dLOW_TEMP_RES",
+            "flags": [],
+            "defVal": 100.1,
+            "minVal": -100000
+        },
+        {
+            "id": 2201,
+            "name": "dLOW_TEMP_OFFSET",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 0,
+            "minVal": -100000
+        },
+        {
+            "id": 2202,
+            "name": "dHIGH_TEMP_RES",
+            "flags": [],
+            "defVal": 100.1,
+            "minVal": -100000
+        },
+        {
+            "id": 2203,
+            "name": "dADC_REF_VOLTAGE",
+            "flags": [
+                "nv"
+            ],
+            "defVal": 4,
+            "minVal": -100000
+        },
+        {
+            "id": 3342,
+            "name": "dL1EXT_XPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3343,
+            "name": "dL1EXT_YPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3344,
+            "name": "dL2EXT_XPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3345,
+            "name": "dL2EXT_YPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3346,
+            "name": "dL3EXT_XPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3347,
+            "name": "dL3EXT_YPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3348,
+            "name": "dL4EXT_XPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3349,
+            "name": "dL4EXT_YPOS",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3510,
+            "name": "dL1EXT_WALL1",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3511,
+            "name": "dL1EXT_WALL2",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3512,
+            "name": "dL1EXT_WALL3",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3513,
+            "name": "dL1EXT_WALL4",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3514,
+            "name": "dL1EXT_WALL5",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3515,
+            "name": "dL1EXT_WALL6",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3516,
+            "name": "dL1EXT_WALL7",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3517,
+            "name": "dL1EXT_WALL8",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3532,
+            "name": "dL1EXT_MIN",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3533,
+            "name": "dL1EXT_MIN_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 3534,
+            "name": "dL1EXT_MAX",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3535,
+            "name": "dL1EXT_MAX_ANGL",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 3542,
+            "name": "dL1EXT_AVG",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 3543,
+            "name": "dL1EXT_CON",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "callback": "dCON_MODE",
+            "defVal": 0
+        },
+        {
+            "id": 5012,
+            "name": "dWP_GAP",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5013,
+            "name": "dWP_WALL_L1",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5014,
+            "name": "dWP_WALL_L2",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5015,
+            "name": "dWP_WALL_L3",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5016,
+            "name": "dWP_WALL_L4",
+            "flags": [
+                "ro"
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5076,
+            "name": "dWP_SAMPLERATE",
+            "flags": [
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5091,
+            "name": "dWP_calTime_L1",
+            "flags": [
+                ""
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5092,
+            "name": "dWP_calTime_L2",
+            "flags": [
+                ""
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5093,
+            "name": "dWP_calTime_L3",
+            "flags": [
+                ""
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5094,
+            "name": "dWP_calTime_L4",
+            "flags": [
+                ""
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5095,
+            "name": "dWP_calOrigSOS_L1",
+            "flags": [
+                ""
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5096,
+            "name": "dWP_calOrigSOS_L2",
+            "flags": [
+                ""
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5097,
+            "name": "dWP_calOrigSOS_L3",
+            "flags": [
+                ""
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5098,
+            "name": "dWP_calOrigSOS_L4",
+            "flags": [
+                ""
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5030,
+            "name": "dWP_calReset",
+            "flags": [
+                ""
+            ],
+            "convert": "mmin",
+            "defVal": 0
+        },
+        {
+            "id": 5053,
+            "name": "dWP_WATER_TEMP",
+            "flags": [
+                "ro"
+            ],
+            "convert": "celfar",
+            "defVal": 12.78
+        },
+        {
+            "id": 5104,
+            "name": "dCALIB_PAIR_TEMP_1",
+            "flags": [
+                "nv",
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5105,
+            "name": "dCALIB_PAIR_TEMP_2",
+            "flags": [
+                "nv",
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5106,
+            "name": "dCALIB_PAIR_TEMP_3",
+            "flags": [
+                "nv",
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5107,
+            "name": "dCALIB_PAIR_TEMP_4",
+            "flags": [
+                "nv",
+                "ro"
+            ],
+            "defVal": 0
+        },
+        {
+            "id": 5065,
+            "name": "dI2C_TEMP",
+            "flags": [
+                ""
+            ],
+            "convert": "celfar",
+            "defVal": 20,
+            "minVal": 0.0,
+            "maxVal": 100.0
+        },
+        {
+            "id": 6004,
+            "name": "dOLED_MIN_TEMPERATURE",
+            "flags": [
+                "nv"
+            ],
+            "convert": "celfar",
+            "defVal": 5.0,
+            "minVal": 0.0,
+            "maxVal": 100.0
+        },
+        {
+            "id": 6005,
+            "name": "dOLED_MAX_TEMPERATURE",
+            "flags": [
+                "nv"
+            ],
+            "convert": "celfar",
+            "defVal": 60.0,
+            "minVal": 0.0,
+            "maxVal": 100.0
+        }
+    ],
+    "packets": [
+        {
+            "id": 10000,
+            "name": "P0",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dOD_AVG",
+                "dID_AVG",
+                "dL1_AVG",
+                "dL1_MIN_ANGL",
+                "dL1_XPOS",
+                "dL1_YPOS",
+                "dL2_AVG",
+                "dL2_MIN_ANGL",
+                "dL2_XPOS",
+                "dL2_YPOS",
+                "dL3_AVG",
+                "dL3_MIN_ANGL",
+                "dL3_XPOS",
+                "dL3_YPOS",
+                "dL4_AVG",
+                "dL4_MIN_ANGL",
+                "dL4_XPOS",
+                "dL4_YPOS"
+            ]
+        },
+        {
+            "id": 10001,
+            "name": "P1",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL1_WALL1",
+                "dL1_WALL2",
+                "dL1_WALL3",
+                "dL1_WALL4",
+                "dL1_WALL5",
+                "dL1_WALL6",
+                "dL1_WALL7",
+                "dL1_WALL8"
+            ]
+        },
+        {
+            "id": 10002,
+            "name": "P2",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL2_WALL1",
+                "dL2_WALL2",
+                "dL2_WALL3",
+                "dL2_WALL4",
+                "dL2_WALL5",
+                "dL2_WALL6",
+                "dL2_WALL7",
+                "dL2_WALL8"
+            ]
+        },
+        {
+            "id": 10003,
+            "name": "P3",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL3_WALL1",
+                "dL3_WALL2",
+                "dL3_WALL3",
+                "dL3_WALL4",
+                "dL3_WALL5",
+                "dL3_WALL6",
+                "dL3_WALL7",
+                "dL3_WALL8"
+            ]
+        },
+        {
+            "id": 10004,
+            "name": "P4",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL4_WALL1",
+                "dL4_WALL2",
+                "dL4_WALL3",
+                "dL4_WALL4",
+                "dL4_WALL5",
+                "dL4_WALL6",
+                "dL4_WALL7",
+                "dL4_WALL8"
+            ]
+        },
+        {
+            "id": 10005,
+            "name": "P5",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dOD_OVALITY",
+                "dL1_MIN",
+                "dL2_MIN",
+                "dL3_MIN",
+                "dL4_MIN",
+                "dL1_MATERIAL_TYPE",
+                "dL2_MATERIAL_TYPE",
+                "dL3_MATERIAL_TYPE",
+                "dL4_MATERIAL_TYPE",
+                "dL1_CON",
+                "dL2_CON",
+                "dL3_CON",
+                "dL4_CON"
+            ]
+        },
+        {
+            "id": 10006,
+            "name": "P6",
+            "linkedCells": [
+                "dPPOS_X0",
+                "dPPOS_Y0"
+            ]
+        },
+        {
+            "id": 10007,
+            "name": "P7",
+            "linkedCells": [
+                "dSNR1",
+                "dPGS1",
+                "dSNR2",
+                "dPGS2",
+                "dSNR3",
+                "dPGS3",
+                "dSNR4",
+                "dPGS4",
+                "dSNR5",
+                "dPGS5",
+                "dSNR6",
+                "dPGS6",
+                "dSNR7",
+                "dPGS7",
+                "dSNR8",
+                "dPGS8"
+            ]
+        },
+        {
+            "id": 10008,
+            "name": "P8",
+            "linkedCells": [
+                "dINITGAIN_T1",
+                "dINITGAIN_T2",
+                "dINITGAIN_T3",
+                "dINITGAIN_T4",
+                "dINITGAIN_T5",
+                "dINITGAIN_T6",
+                "dINITGAIN_T7",
+                "dINITGAIN_T8"
+            ]
+        },
+        {
+            "id": 10009,
+            "name": "P9",
+            "linkedCells": [
+                "dGAP_T1",
+                "dGAP_T2",
+                "dGAP_T3",
+                "dGAP_T4",
+                "dGAP_T5",
+                "dGAP_T6",
+                "dGAP_T7",
+                "dGAP_T8"
+            ]
+        },
+        {
+            "id": 10010,
+            "name": "P10",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dOD_AVG",
+                "dOD_OVALITY",
+                "dID_AVG"
+            ]
+        },
+        {
+            "id": 10011,
+            "name": "P11",
+            "linkedCells": [
+                "dGAUGE_DIAM",
+                "dPPOS_X0",
+                "dPPOS_Y0"
+            ]
+        },
+        {
+            "id": 10012,
+            "name": "P12",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL1_XPOS",
+                "dL1_YPOS",
+                "dL1_MATERIAL_TYPE",
+                "dL1_CON",
+                "dZERO",
+                "dL1_AVG",
+                "dL1_MIN",
+                "dZERO",
+                "dL1_MIN_ANGL",
+                "dL1_MAX",
+                "dZERO",
+                "dL1_MAX_ANGL",
+                "dL1_WALL1",
+                "dL1_WALL2",
+                "dL1_WALL3",
+                "dL1_WALL4",
+                "dL1_WALL5",
+                "dL1_WALL6",
+                "dL1_WALL7",
+                "dL1_WALL8"
+            ]
+        },
+        {
+            "id": 10013,
+            "name": "P13",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL2_XPOS",
+                "dL2_YPOS",
+                "dL2_MATERIAL_TYPE",
+                "dL2_CON",
+                "dZERO",
+                "dL2_AVG",
+                "dL2_MIN",
+                "dZERO",
+                "dL2_MIN_ANGL",
+                "dL2_MAX",
+                "dZERO",
+                "dL2_MAX_ANGL",
+                "dL2_WALL2",
+                "dL2_WALL2",
+                "dL2_WALL3",
+                "dL2_WALL4",
+                "dL2_WALL5",
+                "dL2_WALL6",
+                "dL2_WALL7",
+                "dL2_WALL8"
+            ]
+        },
+        {
+            "id": 10014,
+            "name": "P14",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL3_XPOS",
+                "dL3_YPOS",
+                "dL3_MATERIAL_TYPE",
+                "dL3_CON",
+                "dZERO",
+                "dL3_AVG",
+                "dL3_MIN",
+                "dZERO",
+                "dL3_MIN_ANGL",
+                "dL3_MAX",
+                "dZERO",
+                "dL3_MAX_ANGL",
+                "dL3_WALL3",
+                "dL3_WALL3",
+                "dL3_WALL3",
+                "dL3_WALL4",
+                "dL3_WALL5",
+                "dL3_WALL6",
+                "dL3_WALL7",
+                "dL3_WALL8"
+            ]
+        },
+        {
+            "id": 10015,
+            "name": "P15",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL4_XPOS",
+                "dL4_YPOS",
+                "dL4_MATERIAL_TYPE",
+                "dL4_CON",
+                "dZERO",
+                "dL4_AVG",
+                "dL4_MIN",
+                "dZERO",
+                "dL4_MIN_ANGL",
+                "dL4_MAX",
+                "dZERO",
+                "dL4_MAX_ANGL",
+                "dL4_WALL4",
+                "dL4_WALL4",
+                "dL4_WALL4",
+                "dL4_WALL4",
+                "dL4_WALL5",
+                "dL4_WALL6",
+                "dL4_WALL7",
+                "dL4_WALL8"
+            ]
+        },
+        {
+            "id": 10016,
+            "name": "P16",
+            "linkedCells": [
+                "dHSTP1"
+            ]
+        },
+        {
+            "id": 10017,
+            "name": "P17",
+            "linkedCells": [
+                "dHSTP2"
+            ]
+        },
+        {
+            "id": 10018,
+            "name": "P18",
+            "linkedCells": [
+                "dHSTP3"
+            ]
+        },
+        {
+            "id": 10019,
+            "name": "P19",
+            "linkedCells": [
+                "dHSTP4"
+            ]
+        },
+        {
+            "id": 10020,
+            "name": "P20",
+            "linkedCells": [
+                "dWP_HEADER1"
+            ]
+        },
+        {
+            "id": 10021,
+            "name": "P21",
+            "linkedCells": [
+                "dWP_HEADER2"
+            ]
+        },
+        {
+            "id": 10022,
+            "name": "P22",
+            "linkedCells": [
+                "dWP_HEADER3"
+            ]
+        },
+        {
+            "id": 10023,
+            "name": "P23",
+            "linkedCells": [
+                "dWP_HEADER4"
+            ]
+        },
+        {
+            "id": 10024,
+            "name": "P24",
+            "linkedCells": [
+                "dWP_HEADER5"
+            ]
+        },
+        {
+            "id": 10025,
+            "name": "P25",
+            "linkedCells": [
+                "dWP_HEADER6"
+            ]
+        },
+        {
+            "id": 10028,
+            "name": "P28",
+            "linkedCells": [
+                "dWP_DATA_RLE"
+            ]
+        },
+        {
+            "id": 10029,
+            "name": "P29",
+            "linkedCells": [
+                "dWP_DATA"
+            ]
+        },
+        {
+            "id": 10060,
+            "name": "P60",
+            "linkedCells": [
+                "dCAL_TRANSANGL",
+                "dL1_SOS",
+                "dL1_SEC_WCAL_COMP1",
+                "dL1_SEC_WCAL_COMP2",
+                "dL1_SEC_WCAL_COMP3",
+                "dL1_SEC_WCAL_COMP4",
+                "dL1_SEC_WCAL_COMP5",
+                "dL1_SEC_WCAL_COMP6",
+                "dL1_SEC_WCAL_COMP7",
+                "dL1_SEC_WCAL_COMP8"
+            ]
+        },
+        {
+            "id": 10061,
+            "name": "P61",
+            "linkedCells": [
+                "dCAL_TRANSANGL",
+                "dL2_SOS",
+                "dL2_SEC_WCAL_COMP1",
+                "dL2_SEC_WCAL_COMP2",
+                "dL2_SEC_WCAL_COMP3",
+                "dL2_SEC_WCAL_COMP4",
+                "dL2_SEC_WCAL_COMP5",
+                "dL2_SEC_WCAL_COMP6",
+                "dL2_SEC_WCAL_COMP7",
+                "dL2_SEC_WCAL_COMP8"
+            ]
+        },
+        {
+            "id": 10062,
+            "name": "P62",
+            "linkedCells": [
+                "dCAL_TRANSANGL",
+                "dL3_SOS",
+                "dL3_SEC_WCAL_COMP1",
+                "dL3_SEC_WCAL_COMP2",
+                "dL3_SEC_WCAL_COMP3",
+                "dL3_SEC_WCAL_COMP4",
+                "dL3_SEC_WCAL_COMP5",
+                "dL3_SEC_WCAL_COMP6",
+                "dL3_SEC_WCAL_COMP7",
+                "dL3_SEC_WCAL_COMP8"
+            ]
+        },
+        {
+            "id": 10063,
+            "name": "P63",
+            "linkedCells": [
+                "dCAL_TRANSANGL",
+                "dL4_SOS",
+                "dL4_SEC_WCAL_COMP1",
+                "dL4_SEC_WCAL_COMP2",
+                "dL4_SEC_WCAL_COMP3",
+                "dL4_SEC_WCAL_COMP4",
+                "dL4_SEC_WCAL_COMP5",
+                "dL4_SEC_WCAL_COMP6",
+                "dL4_SEC_WCAL_COMP7",
+                "dL4_SEC_WCAL_COMP8"
+            ]
+        },
+        {
+            "id": 10066,
+            "name": "P66",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL1_XPOS",
+                "dL1_YPOS",
+                "dL1_CON",
+                "dL1_AVG",
+                "dL1_MIN",
+                "dL1_MIN_ANGL",
+                "dL1_MAX",
+                "dL1_MAX_ANGL",
+                "dL1_WALL1",
+                "dL1_WALL2",
+                "dL1_WALL3",
+                "dL1_WALL4",
+                "dL1_WALL5",
+                "dL1_WALL6",
+                "dL1_WALL7",
+                "dL1_WALL8"
+            ]
+        },
+        {
+            "id": 10068,
+            "name": "P68",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL2_XPOS",
+                "dL2_YPOS",
+                "dL2_CON",
+                "dL2_AVG",
+                "dL2_MIN",
+                "dL2_MIN_ANGL",
+                "dL2_MAX",
+                "dL2_MAX_ANGL",
+                "dL2_WALL1",
+                "dL2_WALL2",
+                "dL2_WALL3",
+                "dL2_WALL4",
+                "dL2_WALL5",
+                "dL2_WALL6",
+                "dL2_WALL7",
+                "dL2_WALL8"
+            ]
+        },
+        {
+            "id": 10070,
+            "name": "P70",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL3_XPOS",
+                "dL3_YPOS",
+                "dL3_CON",
+                "dL3_AVG",
+                "dL3_MIN",
+                "dL3_MIN_ANGL",
+                "dL3_MAX",
+                "dL3_MAX_ANGL",
+                "dL3_WALL1",
+                "dL3_WALL2",
+                "dL3_WALL3",
+                "dL3_WALL4",
+                "dL3_WALL5",
+                "dL3_WALL6",
+                "dL3_WALL7",
+                "dL3_WALL8"
+            ]
+        },
+        {
+            "id": 10072,
+            "name": "P72",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dL4_XPOS",
+                "dL4_YPOS",
+                "dL4_CON",
+                "dL4_AVG",
+                "dL4_MIN",
+                "dL4_MIN_ANGL",
+                "dL4_MAX",
+                "dL4_MAX_ANGL",
+                "dL4_WALL1",
+                "dL4_WALL2",
+                "dL4_WALL3",
+                "dL4_WALL4",
+                "dL4_WALL5",
+                "dL4_WALL6",
+                "dL4_WALL7",
+                "dL4_WALL8"
+            ]
+        },
+        {
+            "id": 10074,
+            "name": "P74",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dOD_OVALITY",
+                "dOD_AVG",
+                "dOD_MIN",
+                "dOD_MIN_ANGL",
+                "dOD_MAX",
+                "dOD_MAX_ANGL",
+                "dOD_AXIS1",
+                "dOD_AXIS2",
+                "dOD_AXIS3",
+                "dOD_AXIS4"
+            ]
+        },
+        {
+            "id": 10094,
+            "name": "P94",
+            "linkedCells": [
+                "dIGNORE_START1",
+                "dIGNORE_END1",
+                "dIGNORE_START2",
+                "dIGNORE_END2",
+                "dIGNORE_START3",
+                "dIGNORE_END3"
+            ]
+        },
+        {
+            "id": 10076,
+            "name": "P76",
+            "linkedCells": [
+                "dSNR_PGS_TOL",
+                "dID_OVALITY",
+                "dID_AVG",
+                "dID_MIN",
+                "dID_MIN_ANGL",
+                "dID_MAX",
+                "dID_MAX_ANGL",
+                "dID_AXIS1",
+                "dID_AXIS2",
+                "dID_AXIS3",
+                "dID_AXIS4"
+            ]
+        }
+    ]
+}

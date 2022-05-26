@@ -53,9 +53,9 @@ function GetCell(props) {
             </span>
         );
     } else {
-        if (x.name === 'GET') {
+        if (x.name === 'READ') {
             return <span className="data-cell"><GetCellWidget cell={data}/></span>
-        } else if (x.name === 'POST') {
+        } else if (x.name === 'WRITE') {
             return <span className="data-cell"><PostCellWidget cell={data} /></span>
         } else {
             return (
