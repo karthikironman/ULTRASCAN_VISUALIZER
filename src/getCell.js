@@ -4,13 +4,13 @@ axios.defaults.timeout = 200000;
 const fetchData = (setValue, setLoading,setSuccess,setInitial,cell,showAlert=false) => {
     setInitial(false)
     // let url = `http://24.31.176.88:8088/fcgi/db?cell=${cell}`;
-    console.log({cell})
+    // console.log({cell})
     let ipAddress = localStorage.getItem('ip')
     let extension = `fcgi/db/units=M&resolution=7&cells=${cell.id}`
     let url = ipAddress +"/"+extension;
     setLoading(true)
     axios.get(url).then((res) => {
-        console.log('received the data', res.data[0]);
+        // console.log('received the data', res.data[0]);
         setValue(res.data[0][cell.id]);
         setSuccess(true)
     }).catch((err)=>{

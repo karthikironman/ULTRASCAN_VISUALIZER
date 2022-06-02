@@ -58,13 +58,9 @@ export default function Table() {
         }
     ]
     useEffect(async() => { 
-        console.log(0)
         setLoading(true);
-        console.log(1)
         let dta = await database();
-        console.log(2,dta)
         setData(dta);
-        console.log(3,dta)
         setLoading(false)
     }, [])
     return (

@@ -8,7 +8,7 @@ const getWidth = (width) => {
 const GetSortInfo =()=> {
     let key = 'sortInfo';
     let readStorage = localStorage.getItem(key);
-    console.log({readStorage})
+    // console.log({readStorage})
     let template = {
             name:'',
             direction:1
@@ -71,7 +71,7 @@ function GetCell(props) {
 export default function Cell(props) {
     const [highlight,setHighlight] = useState(false)
     useEffect(() => {
-        console.log('from useeffect function in the cell component', props)
+        // console.log('from useeffect function in the cell component', props)
     }, [])
     return (
         <>

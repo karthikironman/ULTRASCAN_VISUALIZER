@@ -6,7 +6,7 @@ export default function PostCell(props) {
     const [failure, setFailure] = useState(false);
     const [value, setValue] = useState('')
     const writeValue = () => {
-        console.log({props})
+        
         let ipAddress = localStorage.getItem('ip')
         let extension = `fcgi/db`
         let url = ipAddress + "/" + extension;

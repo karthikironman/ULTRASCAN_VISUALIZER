@@ -25,14 +25,14 @@ export   function database() {
                 return response.json();
             })
             .then(function (myJson) {
-                console.log(myJson)
+                // console.log(myJson)
                 let appData = [];
                 let items = ['enum', 'float', 'int', 'packets', 'string'];
                 for (let a = 0; a < items.length; a++) {
                     let category = items[a];
-                    console.log(category)
+                    // console.log(category)
                     for(let b=0;b<userSelection[category].length;b++){
-                        console.log(myJson[category])
+                        // console.log(myJson[category])
                          for(let c=0;c<myJson[category].length;c++){
                              if(userSelection[category][b] == myJson[category][c].id){
                                  appData.push({
