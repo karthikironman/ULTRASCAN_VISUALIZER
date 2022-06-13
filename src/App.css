@@ -161,7 +161,7 @@
   /* background-color: red; */
   position: relative;
   width: 25rem;
-  height: 2.1rem;
+  min-height: 2.1rem;
 }
 
 .getCell p {
@@ -169,9 +169,9 @@
   padding: 0 10px;
   z-index: 2000;
   width: 90%;
-  height: 2rem;
+  /* height: 2rem; */
   position: relative;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   overflow: hidden;
   text-overflow: ellipsis;
 }
